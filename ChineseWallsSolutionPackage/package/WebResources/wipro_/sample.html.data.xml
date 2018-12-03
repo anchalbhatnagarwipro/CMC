@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{377e353c-ddae-e811-a96a-000d3a33eb4e}</WebResourceId>
+  <Name>wipro_/sample.html</Name>
+  <DisplayName>wipro_/sample.html</DisplayName>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/wipro_samplehtml377E353C-DDAE-E811-A96A-000D3A33EB4E</FileName>
+</WebResource>

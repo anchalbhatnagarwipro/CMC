@@ -1,0 +1,178 @@
+5:11:54 PM	Deploying Custom Workflow Activities
+5:11:54 PM	Searching for workflow config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+5:11:54 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+5:14:43 PM	Deploying Custom Workflow Activities
+5:14:43 PM	Searching for workflow config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+5:14:43 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+5:15:06 PM	Deploying Plugins
+5:15:06 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+5:15:07 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+5:15:07 PM	Checking assembly 'ErrorInspectorPlugins.dll' for plugins
+5:15:07 PM	Checking assembly 'log4net.dll' for plugins
+5:15:07 PM	2 plugin(s) found!
+5:15:07 PM	Checking assembly 'Microsoft.Xrm.Client.dll' for plugins
+5:16:22 PM	Deploying Custom Workflow Activities
+5:16:22 PM	Searching for workflow config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+5:16:22 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+9:15:38 PM	Deploying Custom Workflow Activities
+9:15:38 PM	Searching for workflow config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+9:15:38 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+9:17:07 PM	Deploying Custom Workflow Activities
+9:17:07 PM	Searching for workflow config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+9:17:07 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+9:17:08 PM	Processed 1 config(s)
+9:17:24 PM	Deploying Plugins
+9:17:24 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+9:17:24 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+9:17:24 PM	Checking assembly 'ErrorInspectorPlugins.dll' for plugins
+9:17:24 PM	Checking assembly 'log4net.dll' for plugins
+9:17:24 PM	2 plugin(s) found!
+9:17:24 PM	Processed 1 config(s)
+9:19:29 PM	Deploying Plugins
+9:19:29 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+9:19:29 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+9:19:29 PM	Checking assembly 'ErrorInspectorPlugins.dll' for plugins
+9:19:29 PM	Processed 1 config(s)
+9:19:45 PM	Deploying Custom Workflow Activities
+9:19:45 PM	Searching for workflow config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+9:19:45 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+9:19:45 PM	Processed 1 config(s)
+9:23:51 PM	Deploying Custom Workflow Activities
+9:23:51 PM	Searching for workflow config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+9:23:51 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+9:23:57 PM	Updating Plugin 'ErrorInspectorPlugins' from 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\bin\Debug\ErrorInspectorPlugins.dll'
+9:23:59 PM	Adding Plugin 'ErrorInspectorPlugins' to solution 'Wipro_ErrorInspector'
+9:23:59 PM	Adding to solution 'Wipro_ErrorInspector'
+9:24:02 PM	Updating Workflow Activity Type UniqueTokenGenerator
+9:24:03 PM	Processed 1 config(s)
+4:49:44 PM	Deploying Plugins
+4:49:44 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+4:49:44 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+4:49:44 PM	Checking assembly 'ErrorInspectorPlugins.dll' for plugins
+4:49:44 PM	5 plugin(s) found!
+4:49:56 PM	Updating Plugin 'ErrorInspectorPlugins' from 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\bin\Debug\ErrorInspectorPlugins.dll'
+4:50:05 PM	Adding Plugin 'ErrorInspectorPlugins' to solution 'Wipro_ErrorInspector'
+4:50:05 PM	Adding to solution 'Wipro_ErrorInspector'
+4:50:10 PM	Registering Type 'ErrorInspectorPlugins.AddUniqueToken'
+4:50:54 PM	Deploying Plugins
+4:50:54 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+4:50:55 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+4:50:55 PM	Checking assembly 'ErrorInspectorPlugins.dll' for plugins
+4:50:55 PM	5 plugin(s) found!
+4:50:58 PM	Updating Plugin 'ErrorInspectorPlugins' from 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\bin\Debug\ErrorInspectorPlugins.dll'
+4:51:03 PM	Adding Plugin 'ErrorInspectorPlugins' to solution 'Wipro_ErrorInspector'
+4:51:03 PM	Adding to solution 'Wipro_ErrorInspector'
+4:51:08 PM	Registering Type 'ErrorInspectorPlugins.AddUniqueToken'
+4:52:17 PM	Deploying Custom Workflow Activities
+4:52:17 PM	Searching for workflow config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+4:52:17 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+4:52:21 PM	Updating Plugin 'ErrorInspectorPlugins' from 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\bin\Debug\ErrorInspectorPlugins.dll'
+4:52:25 PM	Adding Plugin 'ErrorInspectorPlugins' to solution 'Wipro_ErrorInspector'
+4:52:25 PM	Adding to solution 'Wipro_ErrorInspector'
+4:52:27 PM	Registering Workflow Activity Type CalculateRecordCount
+5:01:52 PM	Deploying Plugins
+5:01:52 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+5:01:52 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+5:01:52 PM	Checking assembly 'ErrorInspectorPlugins.dll' for plugins
+5:01:52 PM	5 plugin(s) found!
+5:01:55 PM	Updating Plugin 'ErrorInspectorPlugins' from 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\bin\Debug\ErrorInspectorPlugins.dll'
+5:01:56 PM	Adding Plugin 'ErrorInspectorPlugins' to solution 'Wipro_ErrorInspector'
+5:01:56 PM	Adding to solution 'Wipro_ErrorInspector'
+5:01:58 PM	Registering Type 'ErrorInspectorPlugins.AddUniqueToken'
+5:02:34 PM	Deploying Custom Workflow Activities
+5:02:34 PM	Searching for workflow config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+5:02:34 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+5:02:37 PM	Updating Plugin 'ErrorInspectorPlugins' from 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\bin\Debug\ErrorInspectorPlugins.dll'
+5:02:42 PM	Adding Plugin 'ErrorInspectorPlugins' to solution 'Wipro_ErrorInspector'
+5:02:42 PM	Adding to solution 'Wipro_ErrorInspector'
+5:02:43 PM	Registering Workflow Activity Type CalculateRecordCount
+5:02:45 PM	Registering Workflow Activity Type CalculateNumberofDayRecordCreated
+5:02:49 PM	Updating Workflow Activity Type UniqueTokenGenerator
+5:02:50 PM	Processed 1 config(s)
+5:03:39 PM	Deploying Plugins
+5:03:39 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+5:03:39 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+5:03:39 PM	Checking assembly 'ErrorInspectorPlugins.dll' for plugins
+5:03:39 PM	5 plugin(s) found!
+5:03:42 PM	Updating Plugin 'ErrorInspectorPlugins' from 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\bin\Debug\ErrorInspectorPlugins.dll'
+5:03:44 PM	Adding Plugin 'ErrorInspectorPlugins' to solution 'Wipro_ErrorInspector'
+5:03:44 PM	Adding to solution 'Wipro_ErrorInspector'
+5:03:45 PM	Registering Type 'ErrorInspectorPlugins.AddUniqueToken'
+5:07:45 PM	Deploying Plugins
+5:07:45 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+5:07:45 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+5:07:45 PM	Checking assembly 'ErrorInspectorPlugins.dll' for plugins
+5:07:45 PM	5 plugin(s) found!
+5:07:49 PM	Updating Plugin 'ErrorInspectorPlugins' from 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\bin\Debug\ErrorInspectorPlugins.dll'
+5:07:50 PM	Adding Plugin 'ErrorInspectorPlugins' to solution 'Wipro_ErrorInspector'
+5:07:50 PM	Adding to solution 'Wipro_ErrorInspector'
+5:07:52 PM	Registering Type 'ErrorInspectorPlugins.AddUniqueToken'
+5:07:54 PM	Registering Step 'On wipro_executionlog create'
+5:07:56 PM	Adding to solution 'Wipro_ErrorInspector'
+5:07:57 PM	Registering Type 'ErrorInspectorPlugins.ChangeFriendlyMessage'
+5:07:59 PM	Registering Step 'On wipro_executionlog create'
+5:08:00 PM	Adding to solution 'Wipro_ErrorInspector'
+5:08:01 PM	Registering Type 'ErrorInspectorPlugins.ClearSourceURL'
+5:09:40 PM	Deploying Plugins
+5:09:40 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+5:09:40 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+5:09:40 PM	Checking assembly 'ErrorInspectorPlugins.dll' for plugins
+5:09:40 PM	5 plugin(s) found!
+5:09:43 PM	Updating Plugin 'ErrorInspectorPlugins' from 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\bin\Debug\ErrorInspectorPlugins.dll'
+5:09:45 PM	Adding Plugin 'ErrorInspectorPlugins' to solution 'Wipro_ErrorInspector'
+5:09:45 PM	Adding to solution 'Wipro_ErrorInspector'
+5:09:46 PM	Updating Type 'ErrorInspectorPlugins.AddUniqueToken'
+5:09:48 PM	Updating Step 'On wipro_executionlog create'
+5:09:50 PM	Adding to solution 'Wipro_ErrorInspector'
+5:09:51 PM	Updating Type 'ErrorInspectorPlugins.ChangeFriendlyMessage'
+5:09:52 PM	Updating Step 'On wipro_executionlog create'
+5:09:53 PM	Adding to solution 'Wipro_ErrorInspector'
+5:09:54 PM	Registering Type 'ErrorInspectorPlugins.ClearSourceURL'
+5:09:56 PM	Registering Step 'On wipro_executionlog create'
+5:09:57 PM	Adding to solution 'Wipro_ErrorInspector'
+5:09:58 PM	Registering Type 'ErrorInspectorPlugins.ImageSamplePlugin'
+5:09:59 PM	Registering Step 'On wipro_executionlog update'
+5:10:01 PM	Registering Image 'Pre'
+5:10:02 PM	Registering Image 'Post'
+5:13:04 PM	Deploying Plugins
+5:13:04 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+5:13:04 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+5:13:04 PM	Checking assembly 'ErrorInspectorPlugins.dll' for plugins
+5:13:04 PM	5 plugin(s) found!
+5:13:08 PM	Updating Plugin 'ErrorInspectorPlugins' from 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\bin\Debug\ErrorInspectorPlugins.dll'
+5:13:09 PM	Adding Plugin 'ErrorInspectorPlugins' to solution 'Wipro_ErrorInspector'
+5:13:09 PM	Adding to solution 'Wipro_ErrorInspector'
+5:13:11 PM	Updating Type 'ErrorInspectorPlugins.AddUniqueToken'
+5:13:13 PM	Updating Step 'On wipro_executionlog create'
+5:13:14 PM	Adding to solution 'Wipro_ErrorInspector'
+5:13:15 PM	Updating Type 'ErrorInspectorPlugins.ChangeFriendlyMessage'
+5:13:16 PM	Updating Step 'On wipro_executionlog create'
+5:13:17 PM	Adding to solution 'Wipro_ErrorInspector'
+5:13:18 PM	Updating Type 'ErrorInspectorPlugins.ClearSourceURL'
+5:13:20 PM	Updating Step 'On wipro_executionlog create'
+5:13:21 PM	Adding to solution 'Wipro_ErrorInspector'
+5:13:21 PM	Updating Type 'ErrorInspectorPlugins.ImageSamplePlugin'
+5:13:23 PM	Updating Step 'On wipro_executionlog update'
+5:13:24 PM	Updating Image 'Pre'
+5:13:25 PM	Registering Image 'Post'
+5:13:26 PM	Adding to solution 'Wipro_ErrorInspector'
+5:13:27 PM	Registering Type 'ErrorInspectorPlugins.ValidateConfigPlugin'
+5:13:28 PM	Registering Step 'On wipro_executionlog create'
+5:13:30 PM	Adding to solution 'Wipro_ErrorInspector'
+5:13:30 PM	Processed 1 config(s)
+5:15:43 PM	Downloading Plugin/Workflow Activity Metadata
+5:15:43 PM	Searching for classes in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+5:15:47 PM	Found Plugin Type Registration ErrorInspectorPlugins.AddUniqueToken
+5:15:49 PM	Found Workflow Activity Type Registration ErrorInspectorPlugins.CalculateRecordCount
+5:15:49 PM	Found Workflow Activity Type Registration ErrorInspectorPlugins.CalculateNumberofDayRecordCreated
+5:15:50 PM	Found Plugin Type Registration ErrorInspectorPlugins.ChangeFriendlyMessage
+5:15:51 PM	Found Plugin Type Registration ErrorInspectorPlugins.ClearSourceURL
+5:15:53 PM	Found Plugin Type Registration ErrorInspectorPlugins.ImageSamplePlugin
+5:15:54 PM	Found Workflow Activity Type Registration ErrorInspectorPlugins.UniqueTokenGenerator
+5:15:55 PM	Found Plugin Type Registration ErrorInspectorPlugins.ValidateConfigPlugin
+5:15:56 PM	8 classes decorated with deployment attributes!
+6:31:24 PM	Generating early bound types
+6:31:24 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\spkl\..'
+6:31:25 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins'
+6:31:25 PM	Target D:\Work\CMC\WiproCMC\WiproCMC\packages\spkl.1.0.226\tools
+6:31:25 PM	Running D:\Work\CMC\WiproCMC\WiproCMC\packages\spkl.1.0.226\tools\..\..\Microsoft.CrmSdk.CoreTools.9.0.0.7\content\bin\coretools\CrmSvcUtil.exe /connstr:"AuthType=Office365;Url=https://cmcdevp.api.crm.dynamics.com/XRMServices/2011/Organization.svc;Username=admin@cmcdevp.onmicrosoft.com;Password=wipro@123" /out:"D:\Work\CMC\WiproCMC\WiproCMC\ErrorInspectorPlugins\Entities.cs" /namespace:"Xrm" /serviceContextName:"" /GenerateActions:"False" /codewriterfilter:"spkl.CrmSvcUtilExtensions.FilteringService,spkl.CrmSvcUtilExtensions" /codewritermessagefilter:"spkl.CrmSvcUtilExtensions.MessageFilteringService,spkl.CrmSvcUtilExtensions" /codegenerationservice:"spkl.CrmSvcUtilExtensions.CodeGenerationService, spkl.CrmSvcUtilExtensions" /metadataproviderqueryservice:"spkl.CrmSvcUtilExtensions.MetadataProviderQueryService,spkl.CrmSvcUtilExtensions"

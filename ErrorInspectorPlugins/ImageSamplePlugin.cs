@@ -1,0 +1,51 @@
+﻿using Microsoft.Xrm.Sdk;
+using Microsoft.Xrm.Sdk.Query;
+using System;
+
+namespace ErrorInspectorPlugins
+{
+    [CrmPluginRegistration(MessageNameEnum.Update, "wipro_executionlog", StageEnum.PostOperation, ExecutionModeEnum.Synchronous, "wipro_friendlymessage", "On wipro_executionlog update", 1, IsolationModeEnum.Sandbox, Image1Attributes = "wipro_friendlymessage", Image1Type =ImageTypeEnum.PreImage, Image1Name = "Pre", Image2Attributes ="All Attributes", Image2Name = "Post", Image2Type =ImageTypeEnum.PostImage, SecureConfiguration ="Test Secure", UnSecureConfiguration ="Test Unsecure")]
+    public class ImageSamplePlugin : IPlugin
+    {
+        public void Execute(IServiceProvider serviceProvider)
+        {
+            ITracingService tracingService = (ITracingService)serviceProvider.GetService(typeof(ITracingService));
+
+            // Obtain the execution context from the service provider.
+            IPluginExecutionContext context = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
+
+            // Obtain the organization service factory.
+            IOrganizationServiceFactory serviceFactory = (IOrganizationServiceFactory)serviceProvider.GetService(typeof(IOrganizationServiceFactory));
+
+            // Obtain the organization service.    
+            IOrganizationService service = serviceFactory.CreateOrganizationService(context.UserId);
+            if (context.InputParameters.Contains("Target") && context.InputParameters["Target"] is Entity)
+            {
+                Entity entity = (Entity)context.InputParameters["Target"];
+                string wipro_friendlymessage = entity["wipro_friendlymessage"].ToString();
+                Guid RecordGuid = entity.Id;
+                string prefriendlymessage = string.Empty; string postfriendlymessage = string.Empty;
+                if (context.PreEntityImages.Contains("Pre") && context.PreEntityImages["Pre"] is Entity)
+                {
+                    Entity preMessageImage = (Entity)context.PreEntityImages["Pre"];
+                    // get topic field value before database update perform
+                    prefriendlymessage = (String)preMessageImage.Attributes["wipro_friendlymessage"];
+                }
+                if (context.PostEntityImages.Contains("Post") && context.PostEntityImages["Post"] is Entity)
+                {
+                    Entity postMessageImage = (Entity)context.PostEntityImages["Post"];
+                    postfriendlymessage = (String)postMessageImage.Attributes["wipro_friendlymessage"];
+                }
+
+                Entity Obj =
+                service.Retrieve(context.PrimaryEntityName, RecordGuid, new ColumnSet("wipro_errordescription"));
+
+                Obj["wipro_errordescription"] = "Pre-Image of description- " + prefriendlymessage + "   " + "Post-Image of description-- " + postfriendlymessage;
+
+                service.Update(Obj);
+
+            }
+
+        }
+    }
+}

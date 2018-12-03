@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="ErrorInspectorPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2cad6fa4a42bb298" PluginAssemblyId="42497121-abc1-4c7d-b47b-740e916ee767" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/ErrorInspectorPlugins-42497121-ABC1-4C7D-B47B-740E916EE767/ErrorInspectorPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="ErrorInspectorPlugins.UniqueTokenGenerator, ErrorInspectorPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2cad6fa4a42bb298" PluginTypeId="5123a48f-9dd6-4b59-b8e8-b1e69519c192" Name="ErrorInspectorPlugins.UniqueTokenGenerator">
+      <FriendlyName>ef6a218f-637b-4b77-817b-505a2a6dfba0</FriendlyName>
+      <WorkflowActivityGroupName>ErrorInspectorPlugins (1.0.0.0)</WorkflowActivityGroupName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

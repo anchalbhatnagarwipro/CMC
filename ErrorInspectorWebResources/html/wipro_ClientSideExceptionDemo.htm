@@ -1,0 +1,30 @@
+<html><head>
+    <title>Client Side Exception Demo</title>
+    <script src="ClientGlobalContext.js.aspx" type="text/javascript"></script>
+    <script src="wipro_testaction"></script>
+     <script src="https://wiproutilitysolutions.crm5.dynamics.com//WebResources/wipro_ExceptionManagement.js"></script>
+   <script src="wipro_ExceptionManagement.js"></script>
+    <script type="text/javascript">
+
+        //generate an intentional exception, catch and log it
+        function generateDemoException() {
+debugger;
+            try {
+                //your custom business logic here
+                //raise intentional exception
+                var a = nonExsitingFunction();
+            }
+            catch (ex) {
+               
+                //your custom exception handling here
+                //log exception. This is the only line of code required in your custom code
+                wipro_Sdk.logException(ex, wipro_Sdk.PriorityLevel.HIGH);
+
+     } 
+}   
+    </script>
+
+<meta><meta><meta><meta><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"></head>
+<body style="word-wrap: break-word;" onfocusout="parent.setEmailRange();">
+<input onclick="generateDemoException()" type="button" value="Generate Exception">
+</body></html>

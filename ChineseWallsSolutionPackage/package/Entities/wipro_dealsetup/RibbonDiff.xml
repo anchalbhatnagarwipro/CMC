@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="wipro.wipro_dealsetup.Button2.Button.CustomAction" Location="Mscrm.Form.wipro_dealsetup.MainTab.Save.Controls._children" Sequence="45">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:wipro.wipro_dealsetup.Button2.Button.Alt" Command="wipro.wipro_dealsetup.Command0.Command" Id="wipro.wipro_dealsetup.Button2.Button" Image32by32="$webresource:wipro_execute32.png" Image16by16="$webresource:wipro_execute16.png" LabelText="$LocLabels:wipro.wipro_dealsetup.Button2.Button.LabelText" Sequence="45" TemplateAlias="o2" ToolTipTitle="$LocLabels:wipro.wipro_dealsetup.Button2.Button.ToolTipTitle" ToolTipDescription="$LocLabels:wipro.wipro_dealsetup.Button2.Button.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="wipro.wipro_dealsetup.Command0.Command">
+      <EnableRules>
+        <EnableRule Id="wipro.wipro_dealsetup.EnableRule0.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="OnExecuteButtonClick" Library="$webresource:wipro_dealsetup.js" />
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules>
+      <EnableRule Id="wipro.wipro_dealsetup.EnableRule0.EnableRule">
+        <CustomRule FunctionName="SetExecuteButtonVisibility" Library="$webresource:wipro_dealsetup.js" />
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="wipro.wipro_dealsetup.Button2.Button.Alt">
+      <Titles>
+        <Title description="Executes the deal setup to create a deal record and configures access for the same" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="wipro.wipro_dealsetup.Button2.Button.LabelText">
+      <Titles>
+        <Title description="Execute" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="wipro.wipro_dealsetup.Button2.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Executes the deal setup to create a deal record and configures access for the same" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="wipro.wipro_dealsetup.Button2.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Execute Deal Setup" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

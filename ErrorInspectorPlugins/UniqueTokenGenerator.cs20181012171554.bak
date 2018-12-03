@@ -1,0 +1,37 @@
+using Microsoft.Xrm.Sdk.Workflow;
+using System;
+using System.Activities;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ErrorInspectorPlugins
+{
+    [CrmPluginRegistration("UniqueTokenGenerator", "UniqueTokenGenerator", "Generates a unique token number", "", IsolationModeEnum.Sandbox)]
+    public sealed class UniqueTokenGenerator : CodeActivity
+    {
+        [Output("Unique Token")]
+        public OutArgument<String> UniqueToken { get; set; }
+
+        protected override void Execute(CodeActivityContext context)
+        {
+            string result = string.Empty;
+
+            IWorkflowContext iWorkflowContext = context.GetExtension<IWorkflowContext>();
+             
+            //extract user id 
+            string userIdPrefix = iWorkflowContext.UserId.ToString().Substring(0, 7);
+
+            //generate a randim seed 
+            Random random = new Random(DateTime.Now.Millisecond);
+
+            //combine user id with random number
+            result = string.Format("{0}{1}", userIdPrefix, random.Next(1000, 99999).ToString());
+            
+            //return unique token
+            this.UniqueToken.Set(context, result);
+            //throw new InvalidWorkflowException(this.UniqueToken.ToString());
+        }
+    }
+}

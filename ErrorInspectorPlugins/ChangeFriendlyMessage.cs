@@ -1,0 +1,35 @@
+﻿using Microsoft.Xrm.Sdk;
+using System;
+
+namespace ErrorInspectorPlugins
+{
+    [CrmPluginRegistration(MessageNameEnum.Create, "wipro_executionlog", StageEnum.PreOperation, ExecutionModeEnum.Synchronous, "", "On wipro_executionlog create", 1, IsolationModeEnum.Sandbox)]
+    public class ChangeFriendlyMessage : IPlugin
+    {
+        public void Execute(IServiceProvider serviceProvider)
+        {
+            // Obtain the execution context from the service provider.
+            Microsoft.Xrm.Sdk.IPluginExecutionContext context = (Microsoft.Xrm.Sdk.IPluginExecutionContext)
+                serviceProvider.GetService(typeof(Microsoft.Xrm.Sdk.IPluginExecutionContext));
+
+            // The InputParameters collection contains all the data passed in the message request.
+            if (context.InputParameters.Contains("Target") &&
+                context.InputParameters["Target"] is Entity)
+            {
+                // Obtain the target entity from the input parameters.
+                Entity entity = (Entity)context.InputParameters["Target"];
+                //</snippetAccountNumberPlugin2>
+
+                // Verify that the target entity represents an account.
+                // If not, this plug-in was not registered correctly.
+                if (entity.LogicalName == "wipro_executionlog")
+                {
+                    string str = (string)entity.Attributes["wipro_friendlymessage"];
+
+                    entity.Attributes["wipro_friendlymessage"] = "Contact to Administrator" + str;
+
+                }
+            }
+        }
+    }
+}

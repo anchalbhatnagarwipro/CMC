@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{6c668446-017c-40be-812d-f77bb9f095c6}</formid>
+    <IntroducedVersion>10.11.2017</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920" showImage="false" shownavigationbar="true">
+      <tabs>
+        <tab id="{d7145e00-7d11-4232-9452-cba60101f235}" IsUserDefined="1" verticallayout="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{f033bbd0-e3ff-4e29-aeb4-7f51b5983a3d}" name="{f033bbd0-e3ff-4e29-aeb4-7f51b5983a3d}" height="auto" IsUserDefined="0" celllabelposition="Left" celllabelalignment="Left" labelwidth="115" locklevel="0" columns="11" showbar="false" showlabel="false">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9164a4ef-6288-4a98-b2fc-0a9821705e2a}" locklevel="0" showlabel="true" colspan="2">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="wipro_name" uniqueid="{953d0b48-9636-5267-a112-da1b8b18e1e5}" datafieldname="wipro_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{302d426b-22e4-47b4-5246-4cc6d0b8a77e}" locklevel="0" showlabel="true" colspan="2">
+                        <labels>
+                          <label description="RecordURL" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="wipro_recordurl" uniqueid="{177d4a6a-1635-0220-7b57-42d39370a197}" datafieldname="wipro_recordurl" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b81acb93-2663-4e99-8953-b754d3801b09}" locklevel="0" showlabel="true" colspan="1">
+                        <labels>
+                          <label description="Error Source" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="wipro_errorsource" uniqueid="{82059da2-cee4-7872-e100-bd8b39ebe636}" datafieldname="wipro_errorsource" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" />
+                      </cell>
+                      <cell id="{e59bc387-71d3-ca6d-16d5-9d38e5174960}" locklevel="0" showlabel="true" colspan="1">
+                        <labels>
+                          <label description="Event" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="wipro_event" uniqueid="{20be9a5a-9bd7-b61d-0dba-c2bd20803786}" datafieldname="wipro_event" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{49741013-e278-c240-399d-2d66142e146a}" locklevel="0" showlabel="true" colspan="1">
+                        <labels>
+                          <label description="Severity" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="wipro_severity" uniqueid="{79c43365-4b6b-5405-49e6-0e740500027e}" datafieldname="wipro_severity" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" />
+                      </cell>
+                      <cell id="{c4e7d00e-59c5-9d05-9d98-032a3c9595a6}" locklevel="0" showlabel="true" colspan="1">
+                        <labels>
+                          <label description="Module" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="wipro_entityname" uniqueid="{17c05be1-c467-97a0-3521-a52694da674e}" datafieldname="wipro_entityname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d67284d6-4dd0-9ec5-e44b-85958709e1e3}" locklevel="0" showlabel="true" colspan="1">
+                        <labels>
+                          <label description="uniquetoken" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="wipro_uniquetoken" uniqueid="{94c72d2d-057c-a0de-c635-a153c4160c67}" datafieldname="wipro_uniquetoken" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                      <cell id="{53093372-9248-205c-be86-c09ba0bd3ee0}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="createdon" datafieldname="createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c541a0ae-057a-40d9-752c-86869d958518}" locklevel="0" showlabel="true" colspan="1">
+                        <labels>
+                          <label description="User" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="wipro_user" uniqueid="{d9877221-9a61-5238-ca7d-e239d1a71e15}" datafieldname="wipro_user" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{ded453b6-04b8-e89e-ade5-1a0dbbe591a4}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2de47aa2-55d9-e186-907e-069262737108}" locklevel="0" showlabel="true" colspan="2" rowspan="2">
+                        <labels>
+                          <label description="Error Details" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="wipro_errordetails" uniqueid="{66db271d-4939-c158-2e5d-9398a9bb0a51}" datafieldname="wipro_errordetails" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row>
+                      <cell id="{de35a15d-220b-38cd-ba02-7bc10ce25b52}" locklevel="0" showlabel="true" colspan="2" rowspan="2" auto="true">
+                        <labels>
+                          <label description="Error Description" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="wipro_errordescription" uniqueid="{ee152070-82c9-b8c0-6ba2-ed23a9410a29}" datafieldname="wipro_errordescription" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" />
+                      </cell>
+                    </row>
+                    <row height="auto" />
+                    <row>
+                      <cell id="{376ae898-8bbb-4069-98d6-d02408c75a86}" locklevel="0" showlabel="true" colspan="2">
+                        <labels>
+                          <label description="friendlyMessage" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="wipro_friendlymessage" uniqueid="{4a910638-a312-7743-8bc8-562eac6e6e1a}" datafieldname="wipro_friendlymessage" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{772e0548-a276-0094-4da2-39d5e4663421}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Execution Mode" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="wipro_executionmode" uniqueid="{6a3ee6ea-dda7-60e4-4e13-3e1cbb248396}" datafieldname="wipro_executionmode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                      <cell id="{be30c623-11e5-0032-2570-c3579797719b}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee6b8f1c-5f95-42ad-82c6-35eb494d112a}" locklevel="1" showlabel="true" colspan="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="ownerid" uniqueid="{2e6515e4-5697-ac04-cb83-0a6b43d9a1e5}" datafieldname="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{a66c0d82-9802-780a-2421-356952a6326e}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Process Sessions" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{adc6fb90-61c3-413e-8615-27940b1087c9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="wipro_name" select="1" icon="1" preview="1">
+        <row name="result" id="wipro_useraccessconfigurationid">
+          <cell name="wipro_user" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="wipro_enablemanageraccess" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="wipro_useraccessconfiguration">
+          <order attribute="wipro_user" descending="false" />
+          <order attribute="wipro_enablemanageraccess" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="wipro_user" />
+          <attribute name="wipro_enablemanageraccess" />
+          <attribute name="wipro_useraccessconfigurationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active User Access Configuration" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

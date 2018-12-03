@@ -1,0 +1,573 @@
+<entities >
+  <entity name="wipro_prospect" displayname="Client" etc="10218" primaryidfield="wipro_prospectid" primarynamefield="wipro_name" disableplugins="false">
+    <fields>
+      <field displayname="Address Line 1" name="wipro_addressline1" type="string" customfield="true" />
+      <field displayname="Address Line 2" name="wipro_addressline2" type="string" customfield="true" />
+      <field displayname="Business Phone" name="wipro_businessphone" type="string" customfield="true" />
+      <field displayname="City" name="wipro_city" type="string" customfield="true" />
+      <field displayname="Company Website" name="wipro_companywebsite" type="string" customfield="true" />
+      <field displayname="Country" name="wipro_country" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Email Id" name="wipro_emailid" type="string" customfield="true" />
+      <field displayname="Home Phone" name="wipro_homephone" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Mobile Phone" name="wipro_mobilephone" type="string" customfield="true" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="wipro_name" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Postal Code" name="wipro_postalcode" type="string" customfield="true" />
+      <field displayname="Primary Contact" name="wipro_primarycontact" type="entityreference" lookupType="contact" customfield="true" />
+      <field displayname="Prospect" name="wipro_prospectid" type="guid" primaryKey="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="State" name="wipro_state" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships>
+      <relationship name="wipro_wipro_prospect_contact" manyToMany="true" isreflexive="false" relatedEntityName="wipro_wipro_prospect_contact" m2mTargetEntity="contact" m2mTargetEntityPrimaryKey="contactid" />
+    </relationships>
+  </entity>
+  <entity name="wipro_deal" displayname="Deal" etc="10216" primaryidfield="wipro_dealid" primarynamefield="wipro_name" disableplugins="false">
+    <fields>
+      <field displayname="Client" name="wipro_prospect" type="entityreference" lookupType="wipro_prospect" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Deal" name="wipro_dealid" type="guid" primaryKey="true" />
+      <field displayname="Document Location Exists" name="wipro_documentlocationexists" type="bool" customfield="true" />
+      <field displayname="Document Url" name="wipro_documenturl" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="wipro_name" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Valid From" name="wipro_validfrom" type="datetime" customfield="true" />
+      <field displayname="Valid Till" name="wipro_validtill" type="datetime" customfield="true" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="wipro_dealsetup" displayname="Deal Setup" etc="10217" primaryidfield="wipro_dealsetupid" primarynamefield="wipro_name" disableplugins="false">
+    <fields>
+      <field displayname="Access Team Allocated" name="wipro_accessteamallocated" type="entityreference" lookupType="team" customfield="true" />
+      <field displayname="Access Team Name" name="wipro_accessteamname" type="string" customfield="true" />
+      <field displayname="Business Unit" name="wipro_businessunit" type="entityreference" lookupType="businessunit" customfield="true" />
+      <field displayname="Client" name="wipro_prospect" type="entityreference" lookupType="wipro_prospect" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="CreateSharepointFolder" name="wipro_createsharepointfolder" type="bool" customfield="true" />
+      <field displayname="Deal" name="wipro_deal" type="entityreference" lookupType="wipro_deal" customfield="true" />
+      <field displayname="Deal Create Status" name="wipro_dealcreatestatus" type="string" customfield="true" />
+      <field displayname="Deal Setup" name="wipro_dealsetupid" type="guid" primaryKey="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="wipro_name" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Valid From" name="wipro_validfrom" type="datetime" customfield="true" />
+      <field displayname="Valid Till" name="wipro_validtill" type="datetime" customfield="true" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="msdyn_wallsavedqueryusersettings" displayname="Filter" etc="10012" primaryidfield="msdyn_wallsavedqueryusersettingsid" primarynamefield="msdyn_entityname" disableplugins="false">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Data" name="msdyn_data" type="string" customfield="true" />
+      <field displayname="Default" name="msdyn_default" type="number" customfield="true" />
+      <field displayname="Display on the wall" name="msdyn_isvisible" type="bool" customfield="true" />
+      <field displayname="Entity Display Name" name="msdyn_entitydisplayname" type="string" customfield="true" />
+      <field displayname="Entity Name" name="msdyn_entityname" type="string" customfield="true" />
+      <field displayname="Entity Type" name="msdyn_otc" type="number" customfield="true" />
+      <field displayname="Filter" name="msdyn_wallsavedqueryusersettingsid" type="guid" primaryKey="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Include Wall in response" name="msdyn_includewallinresponse" type="bool" customfield="true" />
+      <field displayname="Is Following" name="msdyn_isfollowing" type="bool" customfield="true" />
+      <field displayname="Is Virtual" name="msdyn_isvirtual" type="bool" customfield="true" />
+      <field displayname="Is Visible bit" name="msdyn_isvisiblebit" type="number" customfield="true" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Sort Order" name="msdyn_sortorder" type="number" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="Type" name="msdyn_type" type="number" customfield="true" />
+      <field displayname="User Id" name="msdyn_userid" type="entityreference" lookupType="systemuser" customfield="true" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+      <field displayname="View Name" name="msdyn_savedqueryname" type="string" customfield="true" />
+      <field displayname="Wall View Id" name="msdyn_wallsavedqueryid" type="entityreference" lookupType="msdyn_wallsavedquery" customfield="true" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="wipro_sharepointaccesssetup" displayname="Sharepoint Access Setup" etc="10219" primaryidfield="wipro_sharepointaccesssetupid" primarynamefield="wipro_name" disableplugins="false">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Deal" name="wipro_deal" type="entityreference" lookupType="wipro_dealsetup" customfield="true" />
+      <field displayname="Enable Manager Access" name="wipro_enablemanageraccess" type="bool" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="wipro_name" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Sharepoint Access Setup" name="wipro_sharepointaccesssetupid" type="guid" primaryKey="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="User" name="wipro_user" type="entityreference" lookupType="systemuser" customfield="true" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="systemuser" displayname="User" etc="8" primaryidfield="systemuserid" primarynamefield="fullname" disableplugins="false">
+    <fields>
+      <field displayname="Access Mode" name="accessmode" type="optionsetvalue" />
+      <field displayname="Address" name="address1_composite" type="string" />
+      <field displayname="Address 1: Address Type" name="address1_addresstypecode" type="optionsetvalue" />
+      <field displayname="Address 1: County" name="address1_county" type="string" />
+      <field displayname="Address 1: Fax" name="address1_fax" type="string" />
+      <field displayname="Address 1: ID" name="address1_addressid" type="guid" primaryKey="true" />
+      <field displayname="Address 1: Latitude" name="address1_latitude" type="float" />
+      <field displayname="Address 1: Longitude" name="address1_longitude" type="float" />
+      <field displayname="Address 1: Name" name="address1_name" type="string" />
+      <field displayname="Address 1: Post Office Box" name="address1_postofficebox" type="string" />
+      <field displayname="Address 1: Shipping Method" name="address1_shippingmethodcode" type="optionsetvalue" />
+      <field displayname="Address 1: UPS Zone" name="address1_upszone" type="string" />
+      <field displayname="Address 1: UTC Offset" name="address1_utcoffset" type="number" />
+      <field displayname="Address 2: Address Type" name="address2_addresstypecode" type="optionsetvalue" />
+      <field displayname="Address 2: County" name="address2_county" type="string" />
+      <field displayname="Address 2: Fax" name="address2_fax" type="string" />
+      <field displayname="Address 2: ID" name="address2_addressid" type="guid" primaryKey="true" />
+      <field displayname="Address 2: Latitude" name="address2_latitude" type="float" />
+      <field displayname="Address 2: Longitude" name="address2_longitude" type="float" />
+      <field displayname="Address 2: Name" name="address2_name" type="string" />
+      <field displayname="Address 2: Post Office Box" name="address2_postofficebox" type="string" />
+      <field displayname="Address 2: Shipping Method" name="address2_shippingmethodcode" type="optionsetvalue" />
+      <field displayname="Address 2: Telephone 1" name="address2_telephone1" type="string" />
+      <field displayname="Address 2: Telephone 2" name="address2_telephone2" type="string" />
+      <field displayname="Address 2: Telephone 3" name="address2_telephone3" type="string" />
+      <field displayname="Address 2: UPS Zone" name="address2_upszone" type="string" />
+      <field displayname="Address 2: UTC Offset" name="address2_utcoffset" type="number" />
+      <field displayname="Application ID" name="applicationid" type="guid" />
+      <field displayname="Application ID URI" name="applicationiduri" type="string" />
+      <field displayname="Business Unit" name="businessunitid" type="entityreference" lookupType="businessunit" />
+      <field displayname="Calendar" name="calendarid" type="entityreference" lookupType="calendar" />
+      <field displayname="City" name="address1_city" type="string" />
+      <field displayname="Country/Region" name="address1_country" type="string" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Currency" name="transactioncurrencyid" type="entityreference" lookupType="transactioncurrency" />
+      <field displayname="Default Filters Populated" name="defaultfilterspopulated" type="bool" />
+      <field displayname="Default Queue" name="queueid" type="entityreference" lookupType="queue" />
+      <field displayname="Disabled Reason" name="disabledreason" type="string" />
+      <field displayname="Display in Service Views" name="displayinserviceviews" type="bool" />
+      <field displayname="Email 2" name="personalemailaddress" type="string" />
+      <field displayname="Email Address O365 Admin Approval Status" name="isemailaddressapprovedbyo365admin" type="bool" />
+      <field displayname="Employee" name="employeeid" type="string" />
+      <field displayname="Entity Image" name="entityimage" type="imagedata" />
+      <field displayname="Entity Image Id" name="entityimageid" type="guid" />
+      <field displayname="Exchange Rate" name="exchangerate" type="decimal" />
+      <field displayname="First Name" name="firstname" type="string" />
+      <field displayname="Full Name" name="fullname" type="string" />
+      <field displayname="GDPR Optout" name="msdyn_gdproptout" type="bool" customfield="true" />
+      <field displayname="Government" name="governmentid" type="string" />
+      <field displayname="Home Phone" name="homephone" type="string" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Incoming Email Delivery Method" name="incomingemaildeliverymethod" type="optionsetvalue" />
+      <field displayname="Integration user mode" name="isintegrationuser" type="bool" />
+      <field displayname="Invitation Status" name="invitestatuscode" type="optionsetvalue" />
+      <field displayname="Job Title" name="jobtitle" type="string" />
+      <field displayname="Last Name" name="lastname" type="string" />
+      <field displayname="License Type" name="caltype" type="optionsetvalue" />
+      <field displayname="LoggingUsers" name="wipro_loggingusersid" type="entityreference" lookupType="wipro_logconfiguration" customfield="true" />
+      <field displayname="Mailbox" name="defaultmailbox" type="entityreference" lookupType="mailbox" />
+      <field displayname="Main Phone" name="address1_telephone1" type="string" />
+      <field displayname="Manager" name="parentsystemuserid" type="entityreference" lookupType="systemuser" />
+      <field displayname="Middle Name" name="middlename" type="string" />
+      <field displayname="Mobile Alert Email" name="mobilealertemail" type="string" />
+      <field displayname="Mobile Phone" name="mobilephone" type="string" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Nickname" name="nickname" type="string" />
+      <field displayname="Organization " name="organizationid" type="guid" />
+      <field displayname="Other Address" name="address2_composite" type="string" />
+      <field displayname="Other City" name="address2_city" type="string" />
+      <field displayname="Other Country/Region" name="address2_country" type="string" />
+      <field displayname="Other Phone" name="address1_telephone2" type="string" />
+      <field displayname="Other State/Province" name="address2_stateorprovince" type="string" />
+      <field displayname="Other Street 1" name="address2_line1" type="string" />
+      <field displayname="Other Street 2" name="address2_line2" type="string" />
+      <field displayname="Other Street 3" name="address2_line3" type="string" />
+      <field displayname="Other ZIP/Postal Code" name="address2_postalcode" type="string" />
+      <field displayname="Outgoing Email Delivery Method" name="outgoingemaildeliverymethod" type="optionsetvalue" />
+      <field displayname="Pager" name="address1_telephone3" type="string" />
+      <field displayname="Passport Hi" name="passporthi" type="number" />
+      <field displayname="Passport Lo" name="passportlo" type="number" />
+      <field displayname="Photo URL" name="photourl" type="string" />
+      <field displayname="Position" name="positionid" type="entityreference" lookupType="position" />
+      <field displayname="Preferred Address" name="preferredaddresscode" type="optionsetvalue" />
+      <field displayname="Preferred Email" name="preferredemailcode" type="optionsetvalue" />
+      <field displayname="Preferred Phone" name="preferredphonecode" type="optionsetvalue" />
+      <field displayname="Primary Email" name="internalemailaddress" type="string" />
+      <field displayname="Primary Email Status" name="emailrouteraccessapproval" type="optionsetvalue" />
+      <field displayname="Process" name="processid" type="guid" />
+      <field displayname="Process Stage" name="stageid" type="guid" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Restricted Access Mode" name="setupuser" type="bool" />
+      <field displayname="Salutation" name="salutation" type="string" />
+      <field displayname="SharePoint Email Address" name="sharepointemailaddress" type="string" />
+      <field displayname="Sharepoint Principal Id" name="wipro_sharepointprincipalid" type="string" customfield="true" />
+      <field displayname="Site" name="siteid" type="entityreference" lookupType="site" />
+      <field displayname="Skills" name="skills" type="string" />
+      <field displayname="State/Province" name="address1_stateorprovince" type="string" />
+      <field displayname="Status" name="isdisabled" type="bool" />
+      <field displayname="Street 1" name="address1_line1" type="string" />
+      <field displayname="Street 2" name="address1_line2" type="string" />
+      <field displayname="Street 3" name="address1_line3" type="string" />
+      <field displayname="Territory" name="territoryid" type="entityreference" lookupType="territory" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="Title" name="title" type="string" />
+      <field displayname="Traversed Path" name="traversedpath" type="string" />
+      <field displayname="User" name="systemuserid" type="guid" primaryKey="true" />
+      <field displayname="User License Type" name="userlicensetype" type="number" />
+      <field displayname="User Licensed" name="islicensed" type="bool" />
+      <field displayname="User Name" name="domainname" type="string" />
+      <field displayname="User Synced" name="issyncwithdirectory" type="bool" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Windows Live ID" name="windowsliveid" type="string" />
+      <field displayname="Yammer Email" name="yammeremailaddress" type="string" />
+      <field displayname="Yammer User ID" name="yammeruserid" type="string" />
+      <field displayname="Yomi First Name" name="yomifirstname" type="string" />
+      <field displayname="Yomi Full Name" name="yomifullname" type="string" />
+      <field displayname="Yomi Last Name" name="yomilastname" type="string" />
+      <field displayname="Yomi Middle Name" name="yomimiddlename" type="string" />
+      <field displayname="ZIP/Postal Code" name="address1_postalcode" type="string" />
+    </fields>
+    <relationships>
+      <relationship name="systemuserprofiles" manyToMany="true" isreflexive="false" relatedEntityName="systemuserprofiles" m2mTargetEntity="fieldsecurityprofile" m2mTargetEntityPrimaryKey="fieldsecurityprofileid" />
+      <relationship name="systemusersyncmappingprofiles" manyToMany="true" isreflexive="false" relatedEntityName="systemusersyncmappingprofiles" m2mTargetEntity="syncattributemappingprofile" m2mTargetEntityPrimaryKey="syncattributemappingprofileid" />
+      <relationship name="systemuserroles" manyToMany="true" isreflexive="false" relatedEntityName="systemuserroles" m2mTargetEntity="role" m2mTargetEntityPrimaryKey="roleid" />
+    </relationships>
+  </entity>
+  <entity name="wipro_useraccessconfiguration" displayname="User Access Configuration" etc="10220" primaryidfield="wipro_useraccessconfigurationid" primarynamefield="wipro_name" disableplugins="false">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Deal" name="wipro_deal" type="entityreference" lookupType="wipro_dealsetup" customfield="true" />
+      <field displayname="Enable Manager Access" name="wipro_enablemanageraccess" type="bool" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="wipro_name" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="User" name="wipro_user" type="entityreference" lookupType="systemuser" customfield="true" />
+      <field displayname="User Access Configuration" name="wipro_useraccessconfigurationid" type="guid" primaryKey="true" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="wipro_errorlogger" displayname="Error Logger" etc="10222" primaryidfield="activityid" primarynamefield="subject" disableplugins="false">
+    <fields>
+      <field displayname="Activity" name="activityid" type="guid" primaryKey="true" />
+      <field displayname="Activity Additional Parameters" name="activityadditionalparams" type="string" />
+      <field displayname="Activity Status" name="statecode" type="state" />
+      <field displayname="Activity Type" name="activitytypecode" type="string" />
+      <field displayname="Actual Duration" name="actualdurationminutes" type="number" />
+      <field displayname="Actual End" name="actualend" type="datetime" />
+      <field displayname="Actual Start" name="actualstart" type="datetime" />
+      <field displayname="BCC" name="bcc" type="partylist" />
+      <field displayname="CC" name="cc" type="partylist" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Currency" name="transactioncurrencyid" type="entityreference" lookupType="transactioncurrency" />
+      <field displayname="Customers" name="customers" type="partylist" />
+      <field displayname="Date Created" name="createdon" type="datetime" />
+      <field displayname="Date Delivery Last Attempted" name="deliverylastattemptedon" type="datetime" />
+      <field displayname="Date Sent" name="senton" type="datetime" />
+      <field displayname="Delay activity processing until" name="postponeactivityprocessinguntil" type="datetime" />
+      <field displayname="Delivery Priority" name="deliveryprioritycode" type="optionsetvalue" />
+      <field displayname="Description" name="description" type="string" />
+      <field displayname="Due Date" name="scheduledend" type="datetime" />
+      <field displayname="Error Log Details" name="wipro_errorlogdetails" type="string" customfield="true" />
+      <field displayname="Error Type" name="wipro_errortype" type="string" customfield="true" />
+      <field displayname="Event Details" name="wipro_eventdetails" type="string" customfield="true" />
+      <field displayname="Exchange Item ID" name="exchangeitemid" type="string" />
+      <field displayname="Exchange Rate" name="exchangerate" type="decimal" />
+      <field displayname="Exchange WebLink" name="exchangeweblink" type="string" />
+      <field displayname="From" name="from" type="partylist" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Is Billed" name="isbilled" type="bool" />
+      <field displayname="Is Private" name="ismapiprivate" type="bool" />
+      <field displayname="Is Regular Activity" name="isregularactivity" type="bool" />
+      <field displayname="Is Workflow Created" name="isworkflowcreated" type="bool" />
+      <field displayname="Last On Hold Time" name="lastonholdtime" type="datetime" />
+      <field displayname="Last SLA applied" name="slainvokedid" type="entityreference" lookupType="sla" />
+      <field displayname="Last Updated" name="modifiedon" type="datetime" />
+      <field displayname="Left Voice Mail" name="leftvoicemail" type="bool" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Module" name="wipro_moduleid" type="entityreference" lookupType="wipro_module" customfield="true" />
+      <field displayname="On Hold Time (Minutes)" name="onholdtime" type="number" />
+      <field displayname="Optional Attendees" name="optionalattendees" type="partylist" />
+      <field displayname="Organizer" name="organizer" type="partylist" />
+      <field displayname="Outsource Vendors" name="partners" type="partylist" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Priority" name="prioritycode" type="optionsetvalue" />
+      <field displayname="Process" name="processid" type="guid" />
+      <field displayname="Process Stage" name="stageid" type="guid" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Record URL" name="wipro_recordurl" type="string" customfield="true" />
+      <field displayname="Recurring Instance Type" name="instancetypecode" type="optionsetvalue" />
+      <field displayname="Regarding" name="regardingobjectid" type="entityreference" lookupType="account|bookableresourcebooking|bookableresourcebookingheader|bulkoperation|campaign|campaignactivity|contact|contract|entitlement|entitlementtemplate|incident|interactionforemail|invoice|knowledgearticle|knowledgebaserecord|lead|msdyn_agreement|msdyn_agreementbookingdate|msdyn_agreementbookingincident|msdyn_agreementbookingproduct|msdyn_agreementbookingservice|msdyn_agreementbookingservicetask|msdyn_agreementbookingsetup|msdyn_agreementinvoicedate|msdyn_agreementinvoiceproduct|msdyn_agreementinvoicesetup|msdyn_bookingalertstatus|msdyn_bookingrule|msdyn_bookingtimestamp|msdyn_customerasset|msdyn_fieldservicesetting|msdyn_incidenttypecharacteristic|msdyn_incidenttypeproduct|msdyn_incidenttypeservice|msdyn_inventoryadjustment|msdyn_inventoryadjustmentproduct|msdyn_inventoryjournal|msdyn_inventorytransfer|msdyn_payment|msdyn_paymentdetail|msdyn_paymentmethod|msdyn_paymentterm|msdyn_postalbum|msdyn_postalcode|msdyn_processnotes|msdyn_productinventory|msdyn_projectteam|msdyn_purchaseorder|msdyn_purchaseorderbill|msdyn_purchaseorderproduct|msdyn_purchaseorderreceipt|msdyn_purchaseorderreceiptproduct|msdyn_purchaseordersubstatus|msdyn_quotebookingincident|msdyn_quotebookingproduct|msdyn_quotebookingservice|msdyn_quotebookingservicetask|msdyn_resourceterritory|msdyn_rma|msdyn_rmaproduct|msdyn_rmareceipt|msdyn_rmareceiptproduct|msdyn_rmasubstatus|msdyn_rtv|msdyn_rtvproduct|msdyn_rtvsubstatus|msdyn_shipvia|msdyn_systemuserschedulersetting|msdyn_timegroup|msdyn_timegroupdetail|msdyn_timeoffrequest|msdyn_warehouse|msdyn_workorder|msdyn_workordercharacteristic|msdyn_workorderincident|msdyn_workorderproduct|msdyn_workorderresourcerestriction|msdyn_workorderservice|msdyn_workorderservicetask|opportunity|quote|salesorder|site|wipro_deal|wipro_executionlog|wipro_sample" />
+      <field displayname="Required Attendees" name="requiredattendees" type="partylist" />
+      <field displayname="Resources" name="resources" type="partylist" />
+      <field displayname="Sample Entity Id" name="wipro_sampleid" type="entityreference" lookupType="wipro_sample" customfield="true" />
+      <field displayname="Scheduled Duration" name="scheduleddurationminutes" type="number" />
+      <field displayname="Sender's Mailbox" name="sendermailboxid" type="entityreference" lookupType="mailbox" />
+      <field displayname="Series Id" name="seriesid" type="guid" />
+      <field displayname="Service" name="serviceid" type="entityreference" lookupType="service" />
+      <field displayname="Severity" name="wipro_severity" type="optionsetvalue" customfield="true" />
+      <field displayname="SLA" name="slaid" type="entityreference" lookupType="sla" />
+      <field displayname="Social Channel" name="community" type="optionsetvalue" />
+      <field displayname="Sort Date" name="sortdate" type="datetime" />
+      <field displayname="Source Entity" name="wipro_sourceentity" type="string" customfield="true" />
+      <field displayname="Source Reference Id" name="wipro_sourcereferenceid" type="string" customfield="true" />
+      <field displayname="Start Date" name="scheduledstart" type="datetime" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Subject" name="subject" type="string" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="To" name="to" type="partylist" />
+      <field displayname="Traversed Path" name="traversedpath" type="string" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="wipro_executionlog" displayname="Execution Log" etc="10223" primaryidfield="wipro_executionlogid" primarynamefield="wipro_name" disableplugins="false">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Details" name="new_details" type="string" customfield="true" />
+      <field displayname="Details_Error" name="wipro_errordetails" type="string" customfield="true" />
+      <field displayname="Email Address" name="emailaddress" type="string" />
+      <field displayname="Entity" name="wipro_entityname" type="string" customfield="true" />
+      <field displayname="Error Description" name="wipro_errordescription" type="string" customfield="true" />
+      <field displayname="Error Source" name="wipro_errorsource" type="optionsetvalue" customfield="true" />
+      <field displayname="Error Type" name="new_errortype" type="string" customfield="true" />
+      <field displayname="Event" name="new_event" type="string" customfield="true" />
+      <field displayname="Event" name="wipro_event" type="string" customfield="true" />
+      <field displayname="Exception_Log_Configuration" name="wipro_exceptionlogconfigurationid" type="entityreference" lookupType="wipro_logconfiguration" customfield="true" />
+      <field displayname="Execution Log" name="wipro_executionlogid" type="guid" primaryKey="true" />
+      <field displayname="Execution Mode" name="wipro_executionmode" type="string" customfield="true" />
+      <field displayname="friendlyMessage" name="wipro_friendlymessage" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="wipro_name" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="RecordURL" name="wipro_recordurl" type="string" customfield="true" />
+      <field displayname="Severity" name="wipro_severity" type="optionsetvalue" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="uniquetoken" name="wipro_uniquetoken" type="string" customfield="true" />
+      <field displayname="User" name="wipro_user" type="entityreference" lookupType="systemuser" customfield="true" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="wipro_log" displayname="Log" etc="10224" primaryidfield="wipro_logid" primarynamefield="wipro_name" disableplugins="false">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Error description" name="new_errordescription" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Log" name="wipro_logid" type="guid" primaryKey="true" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="wipro_name" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Rate" name="new_rate" type="decimal" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="Total" name="new_total" type="decimal" customfield="true" />
+      <field displayname="Units" name="new_units" type="number" customfield="true" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="wipro_logconfiguration" displayname="Log configuration" etc="10225" primaryidfield="wipro_logconfigurationid" primarynamefield="wipro_name" disableplugins="false">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Custom Workflow Messgae" name="wipro_customworkflowmessgae" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Javascript Message Source" name="wipro_javascriptmessagesource" type="string" customfield="true" />
+      <field displayname="Log configuration" name="wipro_logconfigurationid" type="guid" primaryKey="true" />
+      <field displayname="LogCleanup Period" name="wipro_logcleanupperiod" type="optionsetvalue" customfield="true" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="wipro_name" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Plugin Message Source" name="wipro_pluginmessagesource" type="string" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Run clean up job after every:" name="wipro_runcleanupjobafterevery" type="optionsetvalue" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="wipro_module" displayname="Module" etc="10226" primaryidfield="wipro_moduleid" primarynamefield="wipro_name" disableplugins="false">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Module" name="wipro_moduleid" type="guid" primaryKey="true" />
+      <field displayname="Module Name" name="wipro_name" type="string" customfield="true" />
+      <field displayname="Organization Id" name="organizationid" type="entityreference" lookupType="organization" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="wipro_moduleusersetting" displayname="ModuleUserSetting" etc="10227" primaryidfield="wipro_moduleusersettingid" primarynamefield="wipro_name" disableplugins="false">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Module Name" name="wipro_name" type="string" customfield="true" />
+      <field displayname="ModuleUserSetting" name="wipro_moduleusersettingid" type="guid" primaryKey="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="User" name="wipro_user" type="entityreference" lookupType="systemuser" customfield="true" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="wipro_sample" displayname="Sample" etc="10228" primaryidfield="wipro_sampleid" primarynamefield="wipro_name" disableplugins="false">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="wipro_name" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Sample" name="wipro_sampleid" type="guid" primaryKey="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+</entities>

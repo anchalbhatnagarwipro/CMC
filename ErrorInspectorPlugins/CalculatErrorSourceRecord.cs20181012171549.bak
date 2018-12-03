@@ -1,0 +1,46 @@
+using Microsoft.Xrm.Sdk;
+using Microsoft.Xrm.Sdk.Query;
+using Microsoft.Xrm.Sdk.Workflow;
+using System;
+using System.Activities;
+
+namespace ErrorInspectorPlugins
+{
+    [CrmPluginRegistration("CalculateNumberofDayRecordCreated", "CalculateNumberofDayRecordCreated", "Calculates the record count", "", IsolationModeEnum.Sandbox)]
+    public class CalculateNumberofDayRecordCreated : CodeActivity
+    {
+        [Output("RecordCount")]
+        public OutArgument<String> RecordCount { get; set; }
+
+        [Input("Source")]
+        [AttributeTarget("wipro_executionlog", "wipro_errorsource")]
+        [Default("1")]
+        public InArgument<OptionSetValue> Errorsource { get; set; }
+        protected override void Execute(CodeActivityContext context)
+        {
+            IWorkflowContext workflowContext = context.GetExtension<IWorkflowContext>();
+            IOrganizationServiceFactory serviceFactory = context.GetExtension<IOrganizationServiceFactory>();
+            IOrganizationService service = serviceFactory.CreateOrganizationService(workflowContext.UserId);
+
+            int errorCode = Errorsource.Get<OptionSetValue>(context).Value;
+            QueryExpression qe = new QueryExpression();
+            qe.EntityName = "wipro_executionlog";
+            qe.ColumnSet = new ColumnSet();
+            qe.ColumnSet.Columns.Add("wipro_name");
+
+            qe.Criteria.AddCondition(new ConditionExpression
+            {
+                AttributeName = "wipro_errorsource",
+                Operator = ConditionOperator.Equal,
+                Values = { new OptionSetValue(errorCode) }
+            });
+
+            EntityCollection retrieved = service.RetrieveMultiple(qe);
+            if (retrieved.Entities.Count > 0)
+            {
+                this.RecordCount.Set(context, retrieved.Entities.Count);
+            }
+
+        }
+    }
+}

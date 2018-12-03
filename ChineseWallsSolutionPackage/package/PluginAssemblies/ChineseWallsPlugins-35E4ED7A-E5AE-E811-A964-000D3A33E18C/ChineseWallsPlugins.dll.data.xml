@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="ChineseWallsPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=82d468027a15b76f" PluginAssemblyId="35e4ed7a-e5ae-e811-a964-000d3a33e18c" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/ChineseWallsPlugins-35E4ED7A-E5AE-E811-A964-000D3A33E18C/ChineseWallsPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="ChineseWallsPlugins.ConfigureCrmRecordAccess, ChineseWallsPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=82d468027a15b76f" PluginTypeId="1c00c25f-42af-e811-a969-000d3a33e5a2" Name="ChineseWallsPlugins.ConfigureCrmRecordAccess">
+      <FriendlyName>ChineseWallsPlugins.ConfigureCrmRecordAccess</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="ChineseWallsPlugins.ConfigureSharepointFolderAccess, ChineseWallsPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=82d468027a15b76f" PluginTypeId="c320ed86-e5ae-e811-a965-000d3a33e0b1" Name="ChineseWallsPlugins.ConfigureSharepointFolderAccess">
+      <FriendlyName>ChineseWallsPlugins.ConfigureSharepointFolderAccess</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

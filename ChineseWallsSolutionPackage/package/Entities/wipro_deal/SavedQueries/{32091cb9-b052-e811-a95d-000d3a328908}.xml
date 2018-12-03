@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{32091cb9-b052-e811-a95d-000d3a328908}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="wipro_name" select="1" preview="1" icon="1">
+        <row name="result" id="wipro_dealid">
+          <cell name="wipro_name" width="150" />
+          <cell name="wipro_prospect" width="100" />
+          <cell name="wipro_validfrom" width="100" />
+          <cell name="wipro_validtill" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="createdon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="wipro_deal">
+          <attribute name="wipro_name" />
+          <order attribute="createdon" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity name="team" from="regardingobjectid" to="wipro_dealid" alias="aa">
+            <filter type="and">
+              <condition attribute="teamtype" operator="eq" value="1" />
+            </filter>
+            <link-entity name="teammembership" from="teamid" to="teamid" visible="false" intersect="true">
+              <link-entity name="systemuser" from="systemuserid" to="systemuserid" alias="ab">
+                <filter type="and">
+                  <condition attribute="systemuserid" operator="eq-userid" />
+                </filter>
+              </link-entity>
+            </link-entity>
+          </link-entity>
+          <attribute name="wipro_validtill" />
+          <attribute name="wipro_validfrom" />
+          <attribute name="wipro_prospect" />
+          <attribute name="ownerid" />
+          <attribute name="createdon" />
+          <attribute name="wipro_dealid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Deals I am a Team Member of" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{037484d0-9d6d-4eeb-a079-c88d67d01dad}</formid>
+    <IntroducedVersion>10.11.2017</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900" showImage="false" shownavigationbar="true">
+      <tabs>
+        <tab id="{d9b1b1e0-5898-4a7c-920a-d3a5ff5fd2d5}" IsUserDefined="1" verticallayout="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{0c00b42a-f0a9-41bb-8af1-67cf457d7767}" IsUserDefined="0" showbar="false" showlabel="false">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bfdbf196-6feb-4b4a-ab46-19fe8cd21fa5}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="wipro_name" datafieldname="wipro_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6ff5cfe6-68a8-4558-a6f9-1c22cd2f7bf9}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" datafieldname="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{17347029-5504-d972-d24e-b8ed5d4ab984}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="new_rate" datafieldname="new_rate" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" uniqueid="{c5d4ac0e-7872-8c83-a358-c8c61d6ee4ed}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8a5aacd8-8961-a650-b2c6-95729baad61c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="new_units" datafieldname="new_units" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{abb9b21c-0b69-6de6-3308-1905b172aa62}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="new_total" datafieldname="new_total" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Process Sessions" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <formLibraries>
+        <Library name="wipro_ExceptionManagement.js" libraryUniqueId="{47415864-07e1-a031-b2ba-cdc25aab6b01}" />
+        <Library name="wipro_testaction.js" libraryUniqueId="{aaaa7603-b549-6840-d297-69c2ad5039ba}" />
+      </formLibraries>
+      <events>
+        <event name="onsave" active="false" application="false">
+          <Handlers>
+            <Handler passExecutionContext="true" parameters="" enabled="false" handlerUniqueId="{1833de3c-024e-d8a9-080e-7349aa89bca9}" libraryName="wipro_testaction.js" functionName="CreateTestRecord" />
+          </Handlers>
+        </event>
+        <event name="onload" active="false" application="false">
+          <Handlers>
+            <Handler passExecutionContext="false" parameters="" enabled="true" handlerUniqueId="{9e8ba441-61e4-e953-0186-bc14a8b66a5d}" libraryName="wipro_testaction.js" functionName="generateDemoException" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

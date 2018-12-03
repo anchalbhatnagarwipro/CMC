@@ -1,0 +1,283 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ChineseWallsSolutionPackage", "ChineseWallsSolutionPackage", "{C00FE180-8218-487F-9AEE-B957C5757F50}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62487"
+		Debug.AspNetCompiler.PhysicalPath = "ChineseWallsSolutionPackage\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62487\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62487"
+		Release.AspNetCompiler.PhysicalPath = "ChineseWallsSolutionPackage\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62487\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62487"
+		SlnRelativePath = "ChineseWallsSolutionPackage\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ChineseWallsWebResources", "ChineseWallsWebResources", "{F6177875-7B00-45D5-9EE7-7E9414CCA6F8}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62489"
+		Debug.AspNetCompiler.PhysicalPath = "ChineseWallsWebResources\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62489\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62489"
+		Release.AspNetCompiler.PhysicalPath = "ChineseWallsWebResources\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62489\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62489"
+		SlnRelativePath = "ChineseWallsWebResources\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ErrorInspectorSolutionPackage", "ErrorInspectorSolutionPackage", "{7B59E46E-8E70-4C1A-8BF9-16768F406071}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62492"
+		Debug.AspNetCompiler.PhysicalPath = "ErrorInspectorSolutionPackage\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62492\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62492"
+		Release.AspNetCompiler.PhysicalPath = "ErrorInspectorSolutionPackage\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62492\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62492"
+		SlnRelativePath = "ErrorInspectorSolutionPackage\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ErrorInspectorWebResources", "ErrorInspectorWebResources", "{61F3D87E-2359-4CFC-B390-393041239813}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62493"
+		Debug.AspNetCompiler.PhysicalPath = "ErrorInspectorWebResources\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62493\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62493"
+		Release.AspNetCompiler.PhysicalPath = "ErrorInspectorWebResources\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62493\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62493"
+		SlnRelativePath = "ErrorInspectorWebResources\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorInspectorPlugins", "ErrorInspectorPlugins\ErrorInspectorPlugins.csproj", "{F2734748-70BB-492D-B8CA-E4DD6E06848C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiproChineseWallsPlugins", "WiproChineseWallsPlugins\WiproChineseWallsPlugins.csproj", "{46E58E1A-2214-47DC-AE2B-BBBA2F17C131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMCPackageDeployment", "CMCPackageDeployment\CMCPackageDeployment.csproj", "{41BB92A2-1DE9-48D9-B06F-520890BA345F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveSavedQueryTags", "RemoveSavedQueryTags\RemoveSavedQueryTags.csproj", "{63941398-F632-46A2-833A-47818620FF92}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WiproCMCSampleData", "WiproCMCSampleData", "{78A0E6E1-BEEA-4BDE-8125-DC1479BB732D}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62841"
+		Debug.AspNetCompiler.PhysicalPath = "WiproCMCSampleData\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62841\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62841"
+		Release.AspNetCompiler.PhysicalPath = "WiproCMCSampleData\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62841\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62841"
+		SlnRelativePath = "WiproCMCSampleData\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Dynamics365.UIAutomation.Api", "Microsoft.Dynamics365.UIAutomation.Api\Microsoft.Dynamics365.UIAutomation.Api.csproj", "{DFE2C141-F1AA-4D4B-8DF8-0FB93023CF45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Dynamics365.UIAutomation.Browser", "Microsoft.Dynamics365.UIAutomation.Browser\Microsoft.Dynamics365.UIAutomation.Browser.csproj", "{C9748803-F3CB-4531-B313-BC24D4D0BF0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Dynamics365.UIAutomation.Sample", "Microsoft.Dynamics365.UIAutomation.Sample\Microsoft.Dynamics365.UIAutomation.Sample.csproj", "{A075B87E-DCA5-4A2A-909B-932E2F5F98B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		UnitTest|Any CPU = UnitTest|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C00FE180-8218-487F-9AEE-B957C5757F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00FE180-8218-487F-9AEE-B957C5757F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C00FE180-8218-487F-9AEE-B957C5757F50}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00FE180-8218-487F-9AEE-B957C5757F50}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C00FE180-8218-487F-9AEE-B957C5757F50}.UnitTest|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00FE180-8218-487F-9AEE-B957C5757F50}.UnitTest|Any CPU.Build.0 = Debug|Any CPU
+		{F6177875-7B00-45D5-9EE7-7E9414CCA6F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6177875-7B00-45D5-9EE7-7E9414CCA6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6177875-7B00-45D5-9EE7-7E9414CCA6F8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6177875-7B00-45D5-9EE7-7E9414CCA6F8}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F6177875-7B00-45D5-9EE7-7E9414CCA6F8}.UnitTest|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6177875-7B00-45D5-9EE7-7E9414CCA6F8}.UnitTest|Any CPU.Build.0 = Debug|Any CPU
+		{7B59E46E-8E70-4C1A-8BF9-16768F406071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B59E46E-8E70-4C1A-8BF9-16768F406071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B59E46E-8E70-4C1A-8BF9-16768F406071}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B59E46E-8E70-4C1A-8BF9-16768F406071}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{7B59E46E-8E70-4C1A-8BF9-16768F406071}.UnitTest|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B59E46E-8E70-4C1A-8BF9-16768F406071}.UnitTest|Any CPU.Build.0 = Debug|Any CPU
+		{61F3D87E-2359-4CFC-B390-393041239813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F3D87E-2359-4CFC-B390-393041239813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F3D87E-2359-4CFC-B390-393041239813}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F3D87E-2359-4CFC-B390-393041239813}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{61F3D87E-2359-4CFC-B390-393041239813}.UnitTest|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F3D87E-2359-4CFC-B390-393041239813}.UnitTest|Any CPU.Build.0 = Debug|Any CPU
+		{F2734748-70BB-492D-B8CA-E4DD6E06848C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2734748-70BB-492D-B8CA-E4DD6E06848C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2734748-70BB-492D-B8CA-E4DD6E06848C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2734748-70BB-492D-B8CA-E4DD6E06848C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2734748-70BB-492D-B8CA-E4DD6E06848C}.UnitTest|Any CPU.ActiveCfg = Release|Any CPU
+		{F2734748-70BB-492D-B8CA-E4DD6E06848C}.UnitTest|Any CPU.Build.0 = Release|Any CPU
+		{46E58E1A-2214-47DC-AE2B-BBBA2F17C131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E58E1A-2214-47DC-AE2B-BBBA2F17C131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E58E1A-2214-47DC-AE2B-BBBA2F17C131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E58E1A-2214-47DC-AE2B-BBBA2F17C131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E58E1A-2214-47DC-AE2B-BBBA2F17C131}.UnitTest|Any CPU.ActiveCfg = Release|Any CPU
+		{46E58E1A-2214-47DC-AE2B-BBBA2F17C131}.UnitTest|Any CPU.Build.0 = Release|Any CPU
+		{41BB92A2-1DE9-48D9-B06F-520890BA345F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41BB92A2-1DE9-48D9-B06F-520890BA345F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41BB92A2-1DE9-48D9-B06F-520890BA345F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41BB92A2-1DE9-48D9-B06F-520890BA345F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41BB92A2-1DE9-48D9-B06F-520890BA345F}.UnitTest|Any CPU.ActiveCfg = Release|Any CPU
+		{41BB92A2-1DE9-48D9-B06F-520890BA345F}.UnitTest|Any CPU.Build.0 = Release|Any CPU
+		{63941398-F632-46A2-833A-47818620FF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63941398-F632-46A2-833A-47818620FF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63941398-F632-46A2-833A-47818620FF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63941398-F632-46A2-833A-47818620FF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63941398-F632-46A2-833A-47818620FF92}.UnitTest|Any CPU.ActiveCfg = Release|Any CPU
+		{63941398-F632-46A2-833A-47818620FF92}.UnitTest|Any CPU.Build.0 = Release|Any CPU
+		{78A0E6E1-BEEA-4BDE-8125-DC1479BB732D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A0E6E1-BEEA-4BDE-8125-DC1479BB732D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A0E6E1-BEEA-4BDE-8125-DC1479BB732D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A0E6E1-BEEA-4BDE-8125-DC1479BB732D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{78A0E6E1-BEEA-4BDE-8125-DC1479BB732D}.UnitTest|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A0E6E1-BEEA-4BDE-8125-DC1479BB732D}.UnitTest|Any CPU.Build.0 = Debug|Any CPU
+		{DFE2C141-F1AA-4D4B-8DF8-0FB93023CF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE2C141-F1AA-4D4B-8DF8-0FB93023CF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE2C141-F1AA-4D4B-8DF8-0FB93023CF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE2C141-F1AA-4D4B-8DF8-0FB93023CF45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE2C141-F1AA-4D4B-8DF8-0FB93023CF45}.UnitTest|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE2C141-F1AA-4D4B-8DF8-0FB93023CF45}.UnitTest|Any CPU.Build.0 = Release|Any CPU
+		{C9748803-F3CB-4531-B313-BC24D4D0BF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9748803-F3CB-4531-B313-BC24D4D0BF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9748803-F3CB-4531-B313-BC24D4D0BF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9748803-F3CB-4531-B313-BC24D4D0BF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9748803-F3CB-4531-B313-BC24D4D0BF0C}.UnitTest|Any CPU.ActiveCfg = Release|Any CPU
+		{C9748803-F3CB-4531-B313-BC24D4D0BF0C}.UnitTest|Any CPU.Build.0 = Release|Any CPU
+		{A075B87E-DCA5-4A2A-909B-932E2F5F98B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A075B87E-DCA5-4A2A-909B-932E2F5F98B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A075B87E-DCA5-4A2A-909B-932E2F5F98B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A075B87E-DCA5-4A2A-909B-932E2F5F98B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A075B87E-DCA5-4A2A-909B-932E2F5F98B4}.UnitTest|Any CPU.ActiveCfg = UnitTest|Any CPU
+		{A075B87E-DCA5-4A2A-909B-932E2F5F98B4}.UnitTest|Any CPU.Build.0 = UnitTest|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52EF9360-1CCF-42DE-A560-A78FD2EB4B3C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://wiprobas.visualstudio.com/
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = ChineseWallsSolutionPackage
+		SccProjectName1 = ChineseWallsSolutionPackage
+		SccLocalPath1 = ChineseWallsSolutionPackage
+		SccProjectEnlistmentChoice1 = 2
+		SccWebProject2 = true
+		SccProjectUniqueName2 = ChineseWallsWebResources
+		SccProjectName2 = ChineseWallsWebResources
+		SccLocalPath2 = ChineseWallsWebResources
+		SccProjectEnlistmentChoice2 = 2
+		SccWebProject3 = true
+		SccProjectUniqueName3 = ErrorInspectorSolutionPackage
+		SccProjectName3 = ErrorInspectorSolutionPackage
+		SccLocalPath3 = ErrorInspectorSolutionPackage
+		SccProjectEnlistmentChoice3 = 2
+		SccWebProject4 = true
+		SccProjectUniqueName4 = ErrorInspectorWebResources
+		SccProjectName4 = ErrorInspectorWebResources
+		SccLocalPath4 = ErrorInspectorWebResources
+		SccProjectEnlistmentChoice4 = 2
+		SccProjectUniqueName5 = ErrorInspectorPlugins\\ErrorInspectorPlugins.csproj
+		SccProjectName5 = ErrorInspectorPlugins
+		SccLocalPath5 = ErrorInspectorPlugins
+		SccProjectUniqueName6 = WiproChineseWallsPlugins\\WiproChineseWallsPlugins.csproj
+		SccProjectName6 = WiproChineseWallsPlugins
+		SccLocalPath6 = WiproChineseWallsPlugins
+		SccProjectUniqueName7 = RemoveSavedQueryTags\\RemoveSavedQueryTags.csproj
+		SccProjectName7 = RemoveSavedQueryTags
+		SccLocalPath7 = RemoveSavedQueryTags
+		SccProjectUniqueName8 = CMCPackageDeployment\\CMCPackageDeployment.csproj
+		SccProjectName8 = CMCPackageDeployment
+		SccLocalPath8 = CMCPackageDeployment
+		SccWebProject9 = true
+		SccProjectUniqueName9 = WiproCMCSampleData
+		SccProjectName9 = WiproCMCSampleData
+		SccLocalPath9 = WiproCMCSampleData
+		SccProjectEnlistmentChoice9 = 2
+		SccProjectUniqueName10 = Microsoft.Dynamics365.UIAutomation.Api\\Microsoft.Dynamics365.UIAutomation.Api.csproj
+		SccProjectName10 = Microsoft.Dynamics365.UIAutomation.Api
+		SccLocalPath10 = Microsoft.Dynamics365.UIAutomation.Api
+		SccProjectUniqueName11 = Microsoft.Dynamics365.UIAutomation.Browser\\Microsoft.Dynamics365.UIAutomation.Browser.csproj
+		SccProjectName11 = Microsoft.Dynamics365.UIAutomation.Browser
+		SccLocalPath11 = Microsoft.Dynamics365.UIAutomation.Browser
+		SccProjectUniqueName12 = Microsoft.Dynamics365.UIAutomation.Sample\\Microsoft.Dynamics365.UIAutomation.Sample.csproj
+		SccProjectName12 = Microsoft.Dynamics365.UIAutomation.Sample
+		SccLocalPath12 = Microsoft.Dynamics365.UIAutomation.Sample
+	EndGlobalSection
+EndGlobal

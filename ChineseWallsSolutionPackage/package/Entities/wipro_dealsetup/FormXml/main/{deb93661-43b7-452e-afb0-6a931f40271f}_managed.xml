@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{deb93661-43b7-452e-afb0-6a931f40271f}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{0d3d21e4-b16b-43c9-9418-ab006ad6fc42}" IsUserDefined="1" name="{0d3d21e4-b16b-43c9-9418-ab006ad6fc42}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ab1e5363-4cf1-4ac4-b5ba-7bdd0fc46968}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f6bd7d14-4d75-4e0c-b36c-c92cbaf46ff3}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="wipro_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="wipro_name" uniqueid="{40ecc2ed-c9d6-85b2-878d-d640b29e08d3}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2963de9e-6834-3c75-d6e6-e3e1b2adc507}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="wipro_prospect" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="wipro_prospect" disabled="false" uniqueid="{418723bc-4ea8-44a6-376d-d6d27c5e6ab3}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{36B1A956-1600-4899-B671-4D20E6A7D8F9}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aa377ed1-79a5-c8bb-b083-acc6b5e25c2c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="wipro_validfrom" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="wipro_validfrom" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a882104c-5b36-2c94-2bc6-4ab0b1507211}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="wipro_validtill" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="wipro_validtill" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6eddd31f-92d7-4458-888c-3514f9897055}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="{0d3d21e4-b16b-43c9-9418-ab006ad6fc42}_section_2" showlabel="false" showbar="false" locklevel="0" id="{81b36bcb-5804-91cd-78c7-3bc554632044}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Access Team Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8097a411-4909-9538-632b-c79929d9c6dc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="wipro_accessteamname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="wipro_accessteamname" disabled="false" uniqueid="{a8182692-d9dc-d7c5-2e0a-b2c10c35e23c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c5ccd070-8572-b3b3-68ad-dba958026d51}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="wipro_businessunit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="wipro_businessunit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e0e4d423-ed78-89e8-1ad7-29887257106d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="wipro_accessprivileges" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="wipro_accessprivileges" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{67e26386-0277-c1c6-73d9-650731052c83}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Sharepoint Folder Creation Required?" languagecode="1033" />
+                        </labels>
+                        <control id="wipro_createsharepointfolder" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="wipro_createsharepointfolder" disabled="false" uniqueid="{315b38d3-5803-6066-dad2-56a56e325cdb}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bb756088-a318-3ab0-542a-0369e5d267cc}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="wipro_dealcreatestatus" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="wipro_dealcreatestatus" disabled="false" uniqueid="{71b17639-5b3c-d14c-02be-148297d58abe}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="useraccess" id="{7e0aa56d-0c51-9e65-9e19-e4ad82be7172}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="User Access Configuration" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{aa0935c1-80da-bb7b-ba06-6eb747558aa7}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d734e60b-c76e-2a9c-ecdc-4a751201c6ab}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="UserAccess" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{98d6ab12-8ad3-655b-99eb-0d89773b8cbb}">
+                          <parameters>
+                            <ViewId>{ADC6FB90-61C3-413E-8615-27940B1087C9}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>wipro_wipro_dealsetup_wipro_useraccessconfiguration_deal</RelationshipName>
+                            <TargetEntityType>wipro_useraccessconfiguration</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{ADC6FB90-61C3-413E-8615-27940B1087C9}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="sharepointaccess" id="{947d5683-b9c7-725e-d188-c93884e19e37}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Sharepoint Access Configuration" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_1" showlabel="false" showbar="false" locklevel="0" id="{936eb192-b00d-ecec-6b40-a239e4bc4cb8}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{be5d5be5-7ac2-4416-48a5-621a6091b211}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Sharepoint Access Configuration" languagecode="1033" />
+                        </labels>
+                        <control id="sharepointaccess" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{4bb2dcb7-b906-bea3-a6e3-4d59e0c0d372}">
+                          <parameters>
+                            <ViewId>{70C5318D-03EE-4FDC-B319-02B6CC92B001}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>wipro_wipro_dealsetup_wipro_sharepointaccesssetup_deal</RelationshipName>
+                            <TargetEntityType>wipro_sharepointaccesssetup</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{70C5318D-03EE-4FDC-B319-02B6CC92B001}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d5a5055f-ac9e-4c2e-9d7f-fc21f7a83760}" columns="111">
+        <rows>
+          <row>
+            <cell id="{50172752-9d32-c241-7715-867ec55ec996}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{357298ec-779a-64dd-8c45-142b2135ad8d}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_wipro_deal" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="wipro_deal" disabled="true" uniqueid="{34c2401c-0037-3bc5-d515-9076521022ae}">
+                <parameters>
+                  <AutoResolve>true</AutoResolve>
+                  <DisableMru>false</DisableMru>
+                  <DisableQuickFind>false</DisableQuickFind>
+                  <DisableViewPicker>false</DisableViewPicker>
+                  <DefaultViewId>{C5CC651E-EAB4-4C96-A1DF-5D60401F72C1}</DefaultViewId>
+                  <AllowFilterOff>false</AllowFilterOff>
+                </parameters>
+              </control>
+            </cell>
+            <cell id="{762994a6-e794-e805-5dbe-cc200a174604}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_wipro_accessteamallocated" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="wipro_accessteamallocated" disabled="true" uniqueid="{d2bbedd3-8c91-b39e-85dd-e6e5dd497984}">
+                <parameters>
+                  <AutoResolve>true</AutoResolve>
+                  <DisableMru>false</DisableMru>
+                  <DisableQuickFind>false</DisableQuickFind>
+                  <DisableViewPicker>false</DisableViewPicker>
+                  <DefaultViewId>{57E39843-404C-48E5-B1D9-1889098FB65C}</DefaultViewId>
+                  <AllowFilterOff>false</AllowFilterOff>
+                </parameters>
+              </control>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{8654087d-309a-4b3c-8246-0c17396ba9b6}" columns="111">
+        <rows>
+          <row>
+            <cell id="{7958aa5a-a3c2-4f6d-b8dd-299521c3bec7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{39e8dddd-1ec1-379b-8bb3-7cb80c8cdae4}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+            <cell id="{9a25273a-bdac-0718-d522-64bade9e236c}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{98d6ab12-8ad3-655b-99eb-0d89773b8cbb}">
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+            <parameters>
+              <ViewId>{ADC6FB90-61C3-413E-8615-27940B1087C9}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>wipro_wipro_dealsetup_wipro_useraccessconfiguration_deal</RelationshipName>
+              <TargetEntityType>wipro_useraccessconfiguration</TargetEntityType>
+              <AutoExpand>Fixed</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{ADC6FB90-61C3-413E-8615-27940B1087C9}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>Grid</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>false</EnableChartPicker>
+              <RecordsPerPage>4</RecordsPerPage>
+              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{ADC6FB90-61C3-413E-8615-27940B1087C9}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>wipro_wipro_dealsetup_wipro_useraccessconfiguration_deal</RelationshipName>
+                <TargetEntityType>wipro_useraccessconfiguration</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{ADC6FB90-61C3-413E-8615-27940B1087C9}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{ADC6FB90-61C3-413E-8615-27940B1087C9}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>wipro_wipro_dealsetup_wipro_useraccessconfiguration_deal</RelationshipName>
+                <TargetEntityType>wipro_useraccessconfiguration</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{ADC6FB90-61C3-413E-8615-27940B1087C9}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{ADC6FB90-61C3-413E-8615-27940B1087C9}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>wipro_wipro_dealsetup_wipro_useraccessconfiguration_deal</RelationshipName>
+                <TargetEntityType>wipro_useraccessconfiguration</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{ADC6FB90-61C3-413E-8615-27940B1087C9}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{4bb2dcb7-b906-bea3-a6e3-4d59e0c0d372}">
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+            <parameters>
+              <ViewId>{70C5318D-03EE-4FDC-B319-02B6CC92B001}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>wipro_wipro_dealsetup_wipro_sharepointaccesssetup_deal</RelationshipName>
+              <TargetEntityType>wipro_sharepointaccesssetup</TargetEntityType>
+              <AutoExpand>Fixed</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{70C5318D-03EE-4FDC-B319-02B6CC92B001}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>Grid</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>false</EnableChartPicker>
+              <RecordsPerPage>4</RecordsPerPage>
+              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{70C5318D-03EE-4FDC-B319-02B6CC92B001}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>wipro_wipro_dealsetup_wipro_sharepointaccesssetup_deal</RelationshipName>
+                <TargetEntityType>wipro_sharepointaccesssetup</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{70C5318D-03EE-4FDC-B319-02B6CC92B001}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{70C5318D-03EE-4FDC-B319-02B6CC92B001}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>wipro_wipro_dealsetup_wipro_sharepointaccesssetup_deal</RelationshipName>
+                <TargetEntityType>wipro_sharepointaccesssetup</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{70C5318D-03EE-4FDC-B319-02B6CC92B001}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{70C5318D-03EE-4FDC-B319-02B6CC92B001}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>wipro_wipro_dealsetup_wipro_sharepointaccesssetup_deal</RelationshipName>
+                <TargetEntityType>wipro_sharepointaccesssetup</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{70C5318D-03EE-4FDC-B319-02B6CC92B001}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <formLibraries>
+        <Library name="wipro_dealsetup.js" libraryUniqueId="{7c54016a-be41-6887-4bbd-776c72690b0d}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="OnDealSetupFormLoad" libraryName="wipro_dealsetup.js" handlerUniqueId="{043bb54d-465d-28d7-556c-6144c4231686}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{7f6a20c2-9da5-4542-9ce7-c5c675ceb497}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="wipro_name" select="1" icon="1" preview="1">
+        <row name="result" id="wipro_prospectid">
+          <cell name="wipro_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="wipro_prospect">
+          <attribute name="wipro_name" />
+          <attribute name="createdon" />
+          <order attribute="wipro_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="wipro_prospectid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Clients" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

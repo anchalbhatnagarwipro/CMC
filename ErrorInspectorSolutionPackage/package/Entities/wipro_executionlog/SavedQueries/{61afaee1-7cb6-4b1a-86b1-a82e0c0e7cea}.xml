@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{61afaee1-7cb6-4b1a-86b1-a82e0c0e7cea}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="wipro_name" select="1" icon="1" preview="1">
+        <row name="result" id="wipro_executionlogid">
+          <cell name="wipro_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="wipro_executionlog">
+          <attribute name="wipro_executionlogid" />
+          <attribute name="wipro_name" />
+          <attribute name="createdon" />
+          <order attribute="wipro_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>10.11.2017</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Execution Log Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

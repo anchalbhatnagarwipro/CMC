@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ecf72a34-547d-471e-b79a-381550ec625e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="wipro_name" select="1" icon="1" preview="1">
+        <row name="result" id="wipro_useraccessconfigurationid">
+          <cell name="wipro_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="wipro_useraccessconfiguration">
+          <attribute name="wipro_useraccessconfigurationid" />
+          <attribute name="wipro_name" />
+          <attribute name="createdon" />
+          <order attribute="wipro_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="wipro_name" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active User Access Configuration" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

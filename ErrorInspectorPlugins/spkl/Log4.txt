@@ -1,0 +1,25 @@
+6:31:26 PM	CrmSvcUtil : CRM Service Utility [Version 9.0.0.9154]
+6:31:26 PM	c 2017 Microsoft Corporation. All rights reserved
+6:31:26 PM	
+6:31:26 PM	Loading config from 'D:\Work\CMC\WiproCMC\WiproCMC\packages\Microsoft.CrmSdk.CoreTools.9.0.0.7\content\bin\coretools\spkl.crmsvcutil.config'
+6:31:26 PM	Microsoft.Xrm.Tooling.Connector.CrmServiceClient Error: 2 : Source	: System.ServiceModel
+6:31:26 PM	Method	: Retrieve
+6:31:26 PM	Date	: 10/12/2018
+6:31:26 PM	Time	: 6:31:26 PM
+6:31:27 PM	Error	: Metadata contains a reference that cannot be resolved: 'https://disco.crm.dynamics.com/XRMServices/2011/Discovery.svc?wsdl&sdkversion=9'.
+6:31:27 PM	Stack Trace	: at System.ServiceModel.Description.MetadataExchangeClient.MetadataRetriever.Retrieve(TimeoutHelper timeoutHelper)
+6:31:27 PM	   at System.ServiceModel.Description.MetadataExchangeClient.ResolveNext(ResolveCallState resolveCallState)
+6:31:27 PM	   at System.ServiceModel.Description.MetadataExchangeClient.GetMetadata(MetadataRetriever retriever)
+6:31:27 PM	   at Microsoft.Xrm.Sdk.Client.ServiceMetadataUtility.RetrieveServiceEndpointMetadata(Type contractType, Uri serviceUri, Boolean checkForSecondary)
+6:31:27 PM	   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1..ctor(Uri serviceUri, Boolean checkForSecondary)
+6:31:27 PM	   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateManagement[TService](Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+6:31:27 PM	   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.CreateAndAuthenticateProxy[T](IServiceManagement`1 servicecfg, Uri ServiceUri, Uri homeRealm, ClientCredentials userCredentials, ClientCredentials deviceCredentials, String LogString, CrmLogEntry logSink)
+6:31:27 PM	   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.DiscoverOrganizations(Uri discoveryServiceUri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials, CrmLogEntry logSink)
+6:31:27 PM	   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.QueryLiveDiscoveryServer(Uri discoServer)
+6:31:27 PM	   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.FindCrmOnlineDiscoveryServer(CrmOnlineDiscoveryServers onlineServerList, Boolean useO365Servers)
+6:31:27 PM	   at Microsoft.Xrm.Tooling.Connector.CrmWebSvc.InitCRM2011Service()
+6:31:27 PM	======================================================================================================================
+6:31:27 PM	Inner Exception Level 1	: 
+6:31:27 PM	Source	: System
+6:31:27 PM	Method	: GetResponse
+6:31:27 PM	Date	: 10/12/2018

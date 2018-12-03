@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{ba26c390-c172-e811-8196-e0071b69c9d1}</WebResourceId>
+  <Name>wipro_ClientSideExceptionDemo.htm</Name>
+  <DisplayName>ClientSideExceptionDemo.htm</DisplayName>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>10.11.2017</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource" /&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/wipro_ClientSideExceptionDemohtmBA26C390-C172-E811-8196-E0071B69C9D1</FileName>
+</WebResource>

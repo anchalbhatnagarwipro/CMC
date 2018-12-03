@@ -1,0 +1,138 @@
+8:20:51 PM	Deploying Plugins
+8:20:51 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins\spkl\..'
+8:20:52 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins'
+8:20:52 PM	Checking assembly 'ChineseWallsPlugins.dll' for plugins
+8:20:52 PM	2 plugin(s) found!
+8:41:29 PM	Deploying Plugins
+8:41:29 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins\spkl\..'
+8:41:29 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins'
+8:41:29 PM	Checking assembly 'ChineseWallsPlugins.dll' for plugins
+8:41:29 PM	2 plugin(s) found!
+8:41:34 PM	Updating Plugin 'ChineseWallsPlugins' from 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins\bin\Debug\ChineseWallsPlugins.dll'
+8:42:39 PM	Adding Plugin 'ChineseWallsPlugins' to solution 'ChineseWalls'
+8:42:39 PM	Adding to solution 'ChineseWalls'
+8:42:45 PM	Updating Type 'ChineseWallsPlugins.ConfigureCrmRecordAccess'
+8:42:48 PM	Updating Step 'On email create'
+8:42:51 PM	Adding to solution 'ChineseWalls'
+8:42:52 PM	Updating Step 'On post create'
+8:42:54 PM	Adding to solution 'ChineseWalls'
+8:42:55 PM	Updating Step 'On task create'
+8:42:57 PM	Adding to solution 'ChineseWalls'
+8:42:58 PM	Updating Step 'On phonecall create'
+8:43:00 PM	Adding to solution 'ChineseWalls'
+8:43:02 PM	Updating Step 'On wipro_dealsetup create'
+8:43:04 PM	Adding to solution 'ChineseWalls'
+8:43:05 PM	Updating Step 'On appointment create'
+8:43:07 PM	Adding to solution 'ChineseWalls'
+8:43:07 PM	Updating Type 'ChineseWallsPlugins.ConfigureSharepointFolderAccess'
+8:43:09 PM	Updating Step 'On wipro_deal create'
+8:43:11 PM	Adding to solution 'ChineseWalls'
+8:43:11 PM	Checking assembly 'FakeItEasy.dll' for plugins
+8:43:12 PM	Checking assembly 'log4net.dll' for plugins
+8:43:12 PM	2 plugin(s) found!
+8:43:12 PM	Checking assembly 'Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll' for plugins
+8:44:10 PM	Deploying Plugins
+8:44:10 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins\spkl\..'
+8:44:11 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins'
+8:44:11 PM	Checking assembly 'ChineseWallsPlugins.dll' for plugins
+8:44:11 PM	2 plugin(s) found!
+8:44:14 PM	Updating Plugin 'ChineseWallsPlugins' from 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins\bin\Debug\ChineseWallsPlugins.dll'
+8:45:04 PM	Adding Plugin 'ChineseWallsPlugins' to solution 'ChineseWalls'
+8:45:04 PM	Adding to solution 'ChineseWalls'
+8:45:05 PM	Updating Type 'ChineseWallsPlugins.ConfigureCrmRecordAccess'
+8:45:08 PM	Updating Step 'On email create'
+8:45:10 PM	Adding to solution 'ChineseWalls'
+8:45:12 PM	Updating Step 'On post create'
+8:45:15 PM	Adding to solution 'ChineseWalls'
+8:45:16 PM	Updating Step 'On task create'
+8:45:18 PM	Adding to solution 'ChineseWalls'
+8:45:25 PM	Updating Step 'On phonecall create'
+8:45:27 PM	Adding to solution 'ChineseWalls'
+8:45:28 PM	Updating Step 'On wipro_dealsetup create'
+8:45:29 PM	Adding to solution 'ChineseWalls'
+8:45:30 PM	Updating Step 'On appointment create'
+8:45:32 PM	Adding to solution 'ChineseWalls'
+8:45:32 PM	Updating Type 'ChineseWallsPlugins.ConfigureSharepointFolderAccess'
+8:45:35 PM	Updating Step 'On wipro_deal create'
+8:45:36 PM	Adding to solution 'ChineseWalls'
+8:45:36 PM	Checking assembly 'FakeItEasy.dll' for plugins
+8:45:36 PM	Checking assembly 'log4net.dll' for plugins
+8:45:36 PM	2 plugin(s) found!
+8:45:36 PM	Checking assembly 'Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll' for plugins
+8:56:04 PM	Deploying Plugins
+8:56:04 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins\spkl\..'
+8:56:04 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins'
+8:56:04 PM	Checking assembly 'ChineseWallsPlugins.dll' for plugins
+8:56:04 PM	2 plugin(s) found!
+8:56:09 PM	Updating Plugin 'ChineseWallsPlugins' from 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins\bin\Debug\ChineseWallsPlugins.dll'
+8:57:21 PM	Adding Plugin 'ChineseWallsPlugins' to solution 'ChineseWalls'
+8:57:21 PM	Adding to solution 'ChineseWalls'
+8:57:23 PM	Updating Type 'ChineseWallsPlugins.ConfigureCrmRecordAccess'
+8:57:25 PM	Updating Step 'On email create'
+8:57:27 PM	Adding to solution 'ChineseWalls'
+8:57:28 PM	Updating Step 'On post create'
+8:57:29 PM	Adding to solution 'ChineseWalls'
+8:57:30 PM	Updating Step 'On task create'
+8:57:32 PM	Adding to solution 'ChineseWalls'
+8:57:33 PM	Updating Step 'On phonecall create'
+8:57:34 PM	Adding to solution 'ChineseWalls'
+8:57:35 PM	Updating Step 'On wipro_dealsetup create'
+8:57:37 PM	Adding to solution 'ChineseWalls'
+8:57:38 PM	Updating Step 'On appointment create'
+8:57:39 PM	Adding to solution 'ChineseWalls'
+8:57:39 PM	Updating Type 'ChineseWallsPlugins.ConfigureSharepointFolderAccess'
+8:57:42 PM	Updating Step 'On wipro_deal create'
+8:57:43 PM	Adding to solution 'ChineseWalls'
+8:57:44 PM	Checking assembly 'log4net.dll' for plugins
+8:57:44 PM	2 plugin(s) found!
+8:57:44 PM	Checking assembly 'Microsoft.Xrm.Client.dll' for plugins
+9:05:57 PM	Deploying Plugins
+9:05:57 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins\spkl\..'
+9:05:57 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins'
+9:05:57 PM	Checking assembly 'ChineseWallsPlugins.dll' for plugins
+9:05:57 PM	2 plugin(s) found!
+9:06:01 PM	Updating Plugin 'ChineseWallsPlugins' from 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins\bin\Debug\ChineseWallsPlugins.dll'
+9:06:50 PM	Adding Plugin 'ChineseWallsPlugins' to solution 'ChineseWalls'
+9:06:50 PM	Adding to solution 'ChineseWalls'
+9:06:51 PM	Updating Type 'ChineseWallsPlugins.ConfigureCrmRecordAccess'
+9:06:53 PM	Updating Step 'On email create'
+9:06:55 PM	Adding to solution 'ChineseWalls'
+9:06:56 PM	Updating Step 'On post create'
+9:06:57 PM	Adding to solution 'ChineseWalls'
+9:06:58 PM	Updating Step 'On task create'
+9:07:00 PM	Adding to solution 'ChineseWalls'
+9:07:01 PM	Updating Step 'On phonecall create'
+9:07:03 PM	Adding to solution 'ChineseWalls'
+9:07:04 PM	Updating Step 'On wipro_dealsetup create'
+9:07:05 PM	Adding to solution 'ChineseWalls'
+9:07:06 PM	Updating Step 'On appointment create'
+9:07:08 PM	Adding to solution 'ChineseWalls'
+9:07:08 PM	Updating Type 'ChineseWallsPlugins.ConfigureSharepointFolderAccess'
+9:07:10 PM	Updating Step 'On wipro_deal create'
+9:07:12 PM	Adding to solution 'ChineseWalls'
+9:07:12 PM	Checking assembly 'Microsoft.Xrm.Client.dll' for plugins
+9:09:11 PM	Deploying Plugins
+9:09:11 PM	Searching for plugin config in 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins\spkl\..'
+9:09:12 PM	Using Config 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins'
+9:09:12 PM	Checking assembly 'ChineseWallsPlugins.dll' for plugins
+9:09:12 PM	2 plugin(s) found!
+9:09:16 PM	Updating Plugin 'ChineseWallsPlugins' from 'D:\Work\CMC\WiproCMC\WiproCMC\WiproChineseWallsPlugins\bin\Debug\ChineseWallsPlugins.dll'
+9:10:05 PM	Adding Plugin 'ChineseWallsPlugins' to solution 'ChineseWalls'
+9:10:05 PM	Adding to solution 'ChineseWalls'
+9:10:07 PM	Updating Type 'ChineseWallsPlugins.ConfigureCrmRecordAccess'
+9:10:09 PM	Updating Step 'On email create'
+9:10:11 PM	Adding to solution 'ChineseWalls'
+9:10:12 PM	Updating Step 'On post create'
+9:10:13 PM	Adding to solution 'ChineseWalls'
+9:10:14 PM	Updating Step 'On task create'
+9:10:15 PM	Adding to solution 'ChineseWalls'
+9:10:16 PM	Updating Step 'On phonecall create'
+9:10:18 PM	Adding to solution 'ChineseWalls'
+9:10:19 PM	Updating Step 'On wipro_dealsetup create'
+9:10:21 PM	Adding to solution 'ChineseWalls'
+9:10:22 PM	Updating Step 'On appointment create'
+9:10:23 PM	Adding to solution 'ChineseWalls'
+9:10:23 PM	Updating Type 'ChineseWallsPlugins.ConfigureSharepointFolderAccess'
+9:10:26 PM	Updating Step 'On wipro_deal create'
+9:10:27 PM	Adding to solution 'ChineseWalls'
+9:10:27 PM	Processed 1 config(s)

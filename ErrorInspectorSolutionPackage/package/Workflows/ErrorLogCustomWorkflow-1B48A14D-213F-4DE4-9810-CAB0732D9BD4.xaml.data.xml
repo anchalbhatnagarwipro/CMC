@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{1b48a14d-213f-4de4-9810-cab0732d9bd4}" Name="ErrorLogCustomWorkflow">
+  <XamlFileName>/Workflows/ErrorLogCustomWorkflow-1B48A14D-213F-4DE4-9810-CAB0732D9BD4.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>1</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <CreateStage>40</CreateStage>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>10.11.2017</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>wipro_sample</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="ErrorLogCustomWorkflow" />
+  </LocalizedNames>
+</Workflow>

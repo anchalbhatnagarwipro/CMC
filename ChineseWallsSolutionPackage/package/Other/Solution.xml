@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.33" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>ChineseWalls</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Chinese Walls" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.50</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>wiprocoe</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Wipro COE" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>wipro</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>18445</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="msdyn_wallsavedqueryusersettings" behavior="0" />
+      <RootComponent type="1" schemaName="systemuser" behavior="2" />
+      <RootComponent type="1" schemaName="wipro_deal" behavior="0" />
+      <RootComponent type="1" schemaName="wipro_dealsetup" behavior="0" />
+      <RootComponent type="1" schemaName="wipro_prospect" behavior="0" />
+      <RootComponent type="1" schemaName="wipro_sharepointaccesssetup" behavior="0" />
+      <RootComponent type="1" schemaName="wipro_useraccessconfiguration" behavior="0" />
+      <RootComponent type="60" id="{04c57e27-015e-49a3-a9c2-0326139e4bb3}" behavior="0" />
+      <RootComponent type="60" id="{39ceeacc-461c-4210-9648-2038fa54fddd}" behavior="0" />
+      <RootComponent type="60" id="{4b7efe2f-9672-4dbb-a9da-027de7deab81}" behavior="0" />
+      <RootComponent type="60" id="{52fa98a6-c88d-499b-bcf6-d65f57f2c049}" behavior="0" />
+      <RootComponent type="60" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" behavior="0" />
+      <RootComponent type="60" id="{deb93661-43b7-452e-afb0-6a931f40271f}" behavior="0" />
+      <RootComponent type="60" id="{e602a41e-b1ec-469d-bf45-21244bd1c663}" behavior="0" />
+      <RootComponent type="61" schemaName="wipro_/sample.html" behavior="0" />
+      <RootComponent type="61" schemaName="wipro_deal16.png" behavior="0" />
+      <RootComponent type="61" schemaName="wipro_deal32.png" behavior="0" />
+      <RootComponent type="61" schemaName="wipro_dealsetup.js" behavior="0" />
+      <RootComponent type="61" schemaName="wipro_dealsetup16.png" behavior="0" />
+      <RootComponent type="61" schemaName="wipro_dealsetup32.png" behavior="0" />
+      <RootComponent type="61" schemaName="wipro_execute16.png" behavior="0" />
+      <RootComponent type="61" schemaName="wipro_execute32.png" behavior="0" />
+      <RootComponent type="61" schemaName="wipro_prospect16.png" behavior="0" />
+      <RootComponent type="61" schemaName="wipro_prospect32.png" behavior="0" />
+      <RootComponent type="61" schemaName="wipro_sp16.png" behavior="0" />
+      <RootComponent type="61" schemaName="wipro_sp32.png" behavior="0" />
+      <RootComponent type="61" schemaName="wipro_uc16.png" behavior="0" />
+      <RootComponent type="61" schemaName="wipro_uc32.png" behavior="0" />
+      <RootComponent type="62" behavior="0" />
+      <RootComponent type="91" id="{35e4ed7a-e5ae-e811-a964-000d3a33e18c}" schemaName="ChineseWallsPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=82d468027a15b76f" behavior="0" />
+      <RootComponent type="92" id="{ce20ed86-e5ae-e811-a965-000d3a33e0b1}" behavior="0" />
+      <RootComponent type="92" id="{e6191a66-42af-e811-a969-000d3a33e5a2}" behavior="0" />
+      <RootComponent type="92" id="{e9191a66-42af-e811-a969-000d3a33e5a2}" behavior="0" />
+      <RootComponent type="92" id="{ecc0a069-42af-e811-a965-000d3a33eeed}" behavior="0" />
+      <RootComponent type="92" id="{f5c0a069-42af-e811-a965-000d3a33eeed}" behavior="0" />
+      <RootComponent type="92" id="{fc5c7c63-42af-e811-a966-000d3a33efbc}" behavior="0" />
+      <RootComponent type="92" id="{fe5c7c63-42af-e811-a966-000d3a33efbc}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="1" type="2" schemaName="msdyn_useridyominame" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="2" type="2" schemaName="createdonbehalfbyyominame" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="3" type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="4" type="2" schemaName="createdbyyominame" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="5" type="2" schemaName="msdyn_isfollowingname" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="6" type="2" schemaName="msdyn_isvirtualname" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="7" type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="8" type="2" schemaName="msdyn_isvisiblename" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="9" type="2" schemaName="modifiedbyname" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="10" type="2" schemaName="msdyn_includewallinresponsename" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="11" type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="12" type="2" schemaName="modifiedonbehalfbyyominame" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="13" type="50" schemaName="msdyn_wallsavedqueryusersettings:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="14" type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="15" type="2" schemaName="statecodename" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="16" type="2" schemaName="msdyn_wallsavedqueryidname" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="17" type="2" schemaName="modifiedbyyominame" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="18" type="2" schemaName="owneridyominame" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="19" type="2" schemaName="createdonbehalfbyname" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="20" type="2" schemaName="msdyn_useridname" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="21" type="2" schemaName="modifiedonbehalfbyname" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="22" type="2" schemaName="owneriddsc" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="23" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="24" type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="25" type="2" schemaName="owneridtype" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="26" type="2" schemaName="createdbyname" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="27" type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="28" type="2" schemaName="owneridname" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="29" type="2" schemaName="statuscodename" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="30" type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="31" type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="32" type="10" schemaName="msdyn_wallsavedquery_wallsavedqueryusersettings" displayName="msdyn_wallsavedquery_wallsavedqueryusersettings" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="33" type="10" schemaName="msdyn_systemuser_wallsavedqueryusersettings_userid" displayName="msdyn_systemuser_wallsavedqueryusersettings_userid" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="34" type="1" schemaName="msdyn_wallsavedquery" displayName="Wall View" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="32" type="10" schemaName="msdyn_wallsavedquery_wallsavedqueryusersettings" displayName="msdyn_wallsavedquery_wallsavedqueryusersettings" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="1" schemaName="bookableresourcecategory" displayName="Bookable Resource Category" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="38" type="1" schemaName="msdyn_transactioncategory" displayName="Transaction Category" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="39" type="1" schemaName="characteristic" displayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="40" type="1" schemaName="msdyn_expensecategory" displayName="Expense Category" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="41" type="1" schemaName="pricelevel" displayName="Price List" solution="msdynce_ProductManagement (9.0.4.0066)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="42" type="1" schemaName="msdyn_inventorytransfer" displayName="Inventory Transfer" solution="FieldService (8.1.0.134)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="43" type="1" schemaName="msdyn_inventoryadjustment" displayName="Inventory Adjustment" solution="FieldService (8.1.0.134)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="44" type="1" schemaName="msdyn_postconfig" displayName="Post Configuration" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="45" type="1" schemaName="msdyn_resourcerequirement" displayName="Resource Requirement" solution="MicrosoftDynamicsScheduling (3.1.0.166)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="46" type="1" schemaName="salesorder" displayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="47" type="1" schemaName="bulkoperation" displayName="Quick Campaign" solution="msdynce_Marketing (9.0.4.37)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="48" type="1" schemaName="msdyn_agreement" displayName="Agreement" solution="FieldService (8.1.0.134)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="49" type="1" schemaName="product" displayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="50" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="51" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="52" type="1" schemaName="msdyn_rmareceipt" displayName="RMA Receipt" solution="FieldService (8.1.0.134)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="53" type="1" schemaName="msdyn_actual" displayName="Actual" solution="MicrosoftDynamicsScheduling (3.1.0.166)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="54" type="1" schemaName="msdyn_resourcerequest" displayName="Resource Request" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="55" type="1" schemaName="msdyn_timeentry" displayName="Time Entry" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="56" type="1" schemaName="msdyn_projecttaskstatususer" displayName="Project Task Status User" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="57" type="1" schemaName="msdyn_schedulingparameter" displayName="Scheduling Parameter" solution="MicrosoftDynamicsScheduling (3.1.0.166)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="58" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.1.0.134)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="59" type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="60" type="1" schemaName="msdyn_purchaseorderbill" displayName="Purchase Order Bill" solution="FieldService (8.1.0.134)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="61" type="1" schemaName="msdyn_projectparameter" displayName="Project Parameter" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="1" schemaName="msdyn_batchjob" displayName="Batch Job" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="63" type="1" schemaName="msdyn_customerasset" displayName="Customer Asset" solution="FieldService (8.1.0.134)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="64" type="1" schemaName="msdyn_contractlinescheduleofvalue" displayName="Project Contract Line Milestone" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="65" type="1" schemaName="invoice" displayName="Invoice" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="66" type="1" schemaName="msdyn_requirementstatus" displayName="Requirement Status" solution="MicrosoftDynamicsScheduling (3.1.0.166)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="67" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="68" type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (8.1.0.134)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="69" type="1" schemaName="contract" displayName="Contract" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="70" type="1" schemaName="msdyn_project" displayName="Project" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="71" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="72" type="1" schemaName="msdyn_projectapproval" displayName="Project Approval" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="73" type="1" schemaName="bookingstatus" displayName="Booking Status" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="74" type="1" schemaName="list" displayName="Marketing List" solution="msdynce_Marketing (9.0.4.37)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="75" type="1" schemaName="msdyn_purchaseorderreceipt" displayName="Purchase Order Receipt" solution="FieldService (8.1.0.134)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="1" schemaName="competitor" displayName="Competitor" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="77" type="1" schemaName="campaign" displayName="Campaign" solution="msdynce_Marketing (9.0.4.37)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="78" type="1" schemaName="quote" displayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="79" type="1" schemaName="msdyn_journal" displayName="Journal" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="80" type="1" schemaName="ratingmodel" displayName="Rating Model" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="81" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="82" type="1" schemaName="msdyn_postruleconfig" displayName="Post Rule Configuration" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="83" type="1" schemaName="msdyn_workhourtemplate" displayName="Work template" solution="MicrosoftDynamicsScheduling (3.1.0.166)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="84" type="1" schemaName="msdyn_delegation" displayName="Delegation" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="85" type="1" schemaName="service" displayName="Service" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="86" type="1" schemaName="msdyn_expense" displayName="Expense" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="87" type="1" schemaName="salesliterature" displayName="Sales Literature" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="88" type="1" schemaName="msdyn_priority" displayName="Priority" solution="MicrosoftDynamicsScheduling (3.1.0.166)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="89" type="1" schemaName="msdyn_purchaseorder" displayName="Purchase Order" solution="FieldService (8.1.0.134)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="90" type="1" schemaName="msdyn_warehouse" displayName="Warehouse" solution="FieldService (8.1.0.134)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="91" type="1" schemaName="msdyn_invoicefrequency" displayName="Invoice Frequency" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="92" type="1" schemaName="msdyn_organizationalunit" displayName="Organizational Unit" solution="MicrosoftDynamicsScheduling (3.1.0.166)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="93" type="1" schemaName="msdyn_rtv" displayName="RTV" solution="FieldService (8.1.0.134)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="94" type="1" schemaName="bookableresourcebooking" displayName="Bookable Resource Booking" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="95" type="1" schemaName="msdyn_rma" displayName="RMA" solution="FieldService (8.1.0.134)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="96" type="2" schemaName="msdyn_wallsavedqueryid" displayName="Wall View" parentSchemaName="msdyn_wallsavedquery" parentDisplayName="Wall View" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="32" type="10" schemaName="msdyn_wallsavedquery_wallsavedqueryusersettings" displayName="msdyn_wallsavedquery_wallsavedqueryusersettings" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="97" type="2" schemaName="msdyn_entityname" displayName="Entity Name" parentSchemaName="msdyn_wallsavedquery" parentDisplayName="Wall View" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="32" type="10" schemaName="msdyn_wallsavedquery_wallsavedqueryusersettings" displayName="msdyn_wallsavedquery_wallsavedqueryusersettings" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="98" type="2" schemaName="msdyn_wallsavedqueryid" displayName="Wall View Id" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="32" type="10" schemaName="msdyn_wallsavedquery_wallsavedqueryusersettings" displayName="msdyn_wallsavedquery_wallsavedqueryusersettings" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="99" type="2" schemaName="msdyn_userid" displayName="User Id" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="33" type="10" schemaName="msdyn_systemuser_wallsavedqueryusersettings_userid" displayName="msdyn_systemuser_wallsavedqueryusersettings_userid" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="10" schemaName="msdyn_wallsavedquery_wallsavedqueryusersettings" displayName="msdyn_wallsavedquery_wallsavedqueryusersettings" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="32" type="10" schemaName="msdyn_wallsavedquery_wallsavedqueryusersettings" displayName="msdyn_wallsavedquery_wallsavedqueryusersettings" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="10" schemaName="msdyn_systemuser_wallsavedqueryusersettings_userid" displayName="msdyn_systemuser_wallsavedqueryusersettings_userid" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="33" type="10" schemaName="msdyn_systemuser_wallsavedqueryusersettings_userid" displayName="msdyn_systemuser_wallsavedqueryusersettings_userid" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="10" schemaName="msdyn_systemuser_wallsavedqueryusersettings_userid" displayName="msdyn_systemuser_wallsavedqueryusersettings_userid" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="1" type="2" schemaName="msdyn_useridyominame" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="10" schemaName="msdyn_systemuser_wallsavedqueryusersettings_userid" displayName="msdyn_systemuser_wallsavedqueryusersettings_userid" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="20" type="2" schemaName="msdyn_useridname" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="10" schemaName="msdyn_wallsavedquery_wallsavedqueryusersettings" displayName="msdyn_wallsavedquery_wallsavedqueryusersettings" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="16" type="2" schemaName="msdyn_wallsavedqueryidname" parentSchemaName="msdyn_wallsavedqueryusersettings" parentDisplayName="Filter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="100" type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+        <Dependent key="101" type="60" displayName="Contacts Dashboard" parentDisplayName="Contact" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="101" type="60" displayName="Contacts Dashboard" parentDisplayName="Contact" solution="msdynce_Service (9.0.5.56)" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
+        <Dependent key="101" type="60" displayName="Contacts Dashboard" parentDisplayName="Contact" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="102" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0000.0033)" />
+        <Dependent key="103" type="60" displayName="Test Form" parentDisplayName="Deal Setup" id="{e602a41e-b1ec-469d-bf45-21244bd1c663}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="102" type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="CustomControlsCore (9.1.0000.0033)" />
+        <Dependent key="104" type="60" displayName="Information" parentDisplayName="Deal Setup" id="{deb93661-43b7-452e-afb0-6a931f40271f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="105" type="61" schemaName="msdyn_/DedicatePage/DedicatePage.htm" displayName="msdyn_/DedicatePage/DedicatePage.htm" solution="FieldService (8.1.0.134)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="106" type="61" schemaName="msdyn_/Resource/Utilization/Pages/ResourceUtilization.htm" displayName="msdyn_/Resource/Utilization/Pages/ResourceUtilization.htm" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="107" type="61" schemaName="msdyn_/Time/App/Pages/TimeEntry.htm" displayName="msdyn_/Time/App/Pages/TimeEntry.htm" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="108" type="61" schemaName="msdyn_/PersonalWall.htm" displayName="msdyn_/PersonalWall.htm" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="109" type="61" schemaName="msdyncrm_/libs/knowledgearticlerouting/knowledgearticleroutingtounifiedmoca.html" displayName="msdyncrm_/libs/knowledgearticlerouting/knowledgearticleroutingtounifiedmoca.html" solution="msdynce_KnowledgeManagement (9.0.1.33)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="110" type="61" schemaName="msdyn_/fps/ScheduleBoard/ScheduleBoard.html" displayName="msdyn_/fps/ScheduleBoard/ScheduleBoard.html" solution="MicrosoftDynamicsScheduling (3.1.0.166)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="111" type="61" schemaName="msdyn_/ProjectTasks/App/Pages/ProjectTasks.htm" displayName="msdyn_/ProjectTasks/App/Pages/ProjectTasks.htm" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="112" type="61" schemaName="msdyn_/Expense/App/Pages/Expense.htm" displayName="msdyn_/Expense/App/Pages/Expense.htm" solution="ProjectService (3.1.0.147)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="113" type="61" schemaName="msdyn_/fps/ScheduleSetup/ResourceScheduling.html" displayName="msdyn_/fps/ScheduleSetup/ResourceScheduling.html" solution="MicrosoftDynamicsScheduling (3.1.0.166)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="114" type="61" schemaName="msdyn_/Images/Wall_16.png" displayName="msdyn_/Images/Wall_16.png" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="115" type="61" schemaName="msdyn_appmanagementcontrol" displayName="msdyn_appmanagementcontrol" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="36" type="62" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{1e40546c-db48-4f54-a89e-2639042d208a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="wipro_name" select="1" icon="1" preview="1">
+        <row name="result" id="wipro_executionlogid">
+          <cell name="wipro_name" width="300" />
+          <cell name="wipro_uniquetoken" width="100" />
+          <cell name="wipro_errordetails" width="100" disableSorting="1" />
+          <cell name="wipro_entityname" width="100" />
+          <cell name="wipro_errordescription" width="100" disableSorting="1" />
+          <cell name="wipro_errorsource" width="100" />
+          <cell name="new_errortype" width="100" />
+          <cell name="wipro_event" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="wipro_severity" width="100" />
+          <cell name="wipro_user" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="wipro_executionlog">
+          <attribute name="wipro_name" />
+          <attribute name="createdon" />
+          <order attribute="wipro_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="wipro_uniquetoken" operator="like" value="{0}" />
+            <condition attribute="wipro_name" operator="like" value="{0}" />
+          </filter>
+          <attribute name="wipro_uniquetoken" />
+          <attribute name="wipro_user" />
+          <attribute name="wipro_severity" />
+          <attribute name="wipro_event" />
+          <attribute name="new_errortype" />
+          <attribute name="wipro_errorsource" />
+          <attribute name="wipro_errordescription" />
+          <attribute name="wipro_entityname" />
+          <attribute name="wipro_errordetails" />
+          <attribute name="wipro_executionlogid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>10.11.2017</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active ExecutionLogs" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

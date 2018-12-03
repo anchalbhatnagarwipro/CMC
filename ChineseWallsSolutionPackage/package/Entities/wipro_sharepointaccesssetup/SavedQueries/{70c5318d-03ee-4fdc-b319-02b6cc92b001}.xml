@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{70c5318d-03ee-4fdc-b319-02b6cc92b001}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="wipro_name" select="1" icon="1" preview="1">
+        <row name="result" id="wipro_sharepointaccesssetupid">
+          <cell name="wipro_user" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="wipro_accessprivileges" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="wipro_enablemanageraccess" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="wipro_sharepointaccesssetup">
+          <order attribute="wipro_user" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="wipro_user" />
+          <attribute name="wipro_enablemanageraccess" />
+          <attribute name="wipro_accessprivileges" />
+          <attribute name="wipro_sharepointaccesssetupid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Sharepoint Access Setup" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

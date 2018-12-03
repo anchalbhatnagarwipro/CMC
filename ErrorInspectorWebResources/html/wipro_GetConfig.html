@@ -1,0 +1,71 @@
+<html><head><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"></head><body style="word-wrap: break-word;" onfocusout="parent.setEmailRange();">﻿
+
+    <title>Confi Get User Demo</title>
+    <script src="ClientGlobalContext.js.aspx" type="text/javascript"></script>
+    <script type="text/javascript">
+        function GetConfigInfo(configID) {          
+                var clientURL = Xrm.Page.context.getClientUrl();
+            var req = new XMLHttpRequest()           
+            var query = "/api/data/v8.1/wipro_logconfigurations(" + configID + ")?$select=wipro_name,wipro_javascriptmessagesource&$expand=wipro_wipro_logconfiguration_systemuser($select=systemuserid)";
+            console.log(encodeURI(clientURL + query));
+            req.open("GET", encodeURI(clientURL + query), false);
+                req.setRequestHeader("Accept", "application/json");
+                req.setRequestHeader("Content-Type", "application/json;charset=utf-8");
+                req.setRequestHeader("OData-MaxVersion", "4.0");
+                req.setRequestHeader("OData-Version", "4.0");
+                req.onreadystatechange = function () {
+                    if (this.readyState == 4) {
+                        req.onreadystatechange = null;
+                        if (this.status == 200)
+                        { 
+                            var data = JSON.parse(this.response);                         
+                            for (var i = 0; i < data.wipro_wipro_logconfiguration_systemuser.length; i++) {
+                                var accountrolecode = data.wipro_wipro_logconfiguration_systemuser[i]["systemuserid"];
+                                 var message= data.wipro_javascriptmessagesource;;
+                                alert(message + "userId : " + accountrolecode);
+                            }
+                        }
+                        else {
+                           
+                            alert("Error retrieving Accounts – " + error.message);
+                        }
+                    }
+                };
+                req.send(null);            
+        }
+        function generateDemoException() {
+            try {
+                var req = new XMLHttpRequest();
+                alert(Xrm.Page.context.getClientUrl());
+                req.open("GET", Xrm.Page.context.getClientUrl() + "/api/data/v8.1/wipro_logconfigurations?$select=wipro_name,wipro_logconfigurationid", true);                
+                req.setRequestHeader("OData-MaxVersion", "4.0");
+                req.setRequestHeader("OData-Version", "4.0");
+                req.setRequestHeader("Accept", "application/json");
+                req.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+                req.onreadystatechange = function () {
+                    if (this.readyState === 4) {
+                        req.onreadystatechange = null;
+                        if (this.status === 200) {                            
+                            var result = JSON.parse(this.response);
+                            for (var i = 0; i < result.value.length; i++) {
+                                var accountrolecode = result.value[i]["wipro_logconfigurationid"];
+                                GetConfigInfo(accountrolecode);
+                              
+                            }
+
+                        }
+                        else {
+                           
+                        }
+                    }
+                };
+                req.send();
+            }
+            catch (error) { }
+        }
+    </script>    
+
+
+    <input onclick="generateDemoException()" type="button" value="Generate Exception">
+
+</body></html>

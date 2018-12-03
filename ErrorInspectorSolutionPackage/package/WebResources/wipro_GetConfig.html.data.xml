@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{2438a3dc-3084-e811-8198-e0071b66a1e1}</WebResourceId>
+  <Name>wipro_GetConfig.html</Name>
+  <DisplayName>GetConfig.html</DisplayName>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>10.11.2017</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource" /&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/wipro_GetConfightml2438A3DC-3084-E811-8198-E0071B66A1E1</FileName>
+</WebResource>

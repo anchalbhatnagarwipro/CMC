@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{ca3d4f02-e4a4-4b08-83c2-aef2c336e7fc}" Name="CreateErrorLog">
+  <XamlFileName>/Workflows/CreateErrorLog-CA3D4F02-E4A4-4B08-83C2-AEF2C336E7FC.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>3</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <CreateStage>40</CreateStage>
+  <RunAs>1</RunAs>
+  <SdkMessageId>{e3d413a7-a1ce-e711-8172-e0071b66a1e1}</SdkMessageId>
+  <UniqueName>CreateErrorLog</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>10.11.2017</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <FormId>{00000000-0000-0000-0000-000000000000}</FormId>
+  <PrimaryEntity>none</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="CreateErrorLog" />
+  </LocalizedNames>
+</Workflow>

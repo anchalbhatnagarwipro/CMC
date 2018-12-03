@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{746ba4a2-c8b1-e811-a969-000d3a33e5a2}</WebResourceId>
+  <Name>wipro_ExecuteErrorLogAction.js</Name>
+  <DisplayName>ExecuteErrorLogAction</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>10.11.2017</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/wipro_ExecuteErrorLogActionjs746BA4A2-C8B1-E811-A969-000D3A33E5A2</FileName>
+</WebResource>

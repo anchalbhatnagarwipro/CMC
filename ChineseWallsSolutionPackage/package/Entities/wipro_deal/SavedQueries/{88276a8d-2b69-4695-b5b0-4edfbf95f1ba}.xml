@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{88276a8d-2b69-4695-b5b0-4edfbf95f1ba}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="wipro_name" select="1" icon="1" preview="1">
+        <row name="result" id="wipro_dealid">
+          <cell name="wipro_name" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="wipro_prospect" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="wipro_validfrom" width="100" />
+          <cell name="wipro_validtill" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="createdby" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="modifiedby" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="wipro_deal">
+          <attribute name="wipro_name" />
+          <attribute name="createdon" />
+          <order attribute="wipro_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="wipro_validtill" />
+          <attribute name="wipro_validfrom" />
+          <attribute name="wipro_prospect" />
+          <attribute name="modifiedon" />
+          <attribute name="modifiedby" />
+          <attribute name="createdby" />
+          <attribute name="wipro_dealid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Deals" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

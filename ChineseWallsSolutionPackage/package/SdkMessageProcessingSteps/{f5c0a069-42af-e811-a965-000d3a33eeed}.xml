@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="On appointment create" SdkMessageProcessingStepId="{f5c0a069-42af-e811-a965-000d3a33eeed}">
+  <PluginTypeName>ChineseWallsPlugins.ConfigureCrmRecordAccess, ChineseWallsPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=82d468027a15b76f</PluginTypeName>
+  <PluginTypeId>1c00c25f-42af-e811-a969-000d3a33e5a2</PluginTypeId>
+  <PrimaryEntity>appointment</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

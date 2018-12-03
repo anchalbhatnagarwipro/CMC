@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{5a32d687-c072-e811-8196-e0071b69c9d1}</WebResourceId>
+  <Name>wipro_ExceptionManagement.js</Name>
+  <DisplayName>Exception management services library </DisplayName>
+  <Description>Exception management services library </Description>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>10.11.2017</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/wipro_ExceptionManagementjs5A32D687-C072-E811-8196-E0071B69C9D1</FileName>
+</WebResource>

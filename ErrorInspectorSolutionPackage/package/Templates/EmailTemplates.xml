@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EmailTemplates>
+  <emailtemplate>
+    <IsCustomizable>1</IsCustomizable>
+    <templateid>{b1f58df3-b0aa-e811-81ae-e0071b65e251}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <templatetypecode>8</templatetypecode>
+    <body></body>
+    <title>Error Scanner Email Activity</title>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>0</generationtypecode>
+    <IntroducedVersion>10.11.2017</IntroducedVersion>
+  </emailtemplate>
+</EmailTemplates>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{54c7bb8c-744e-4b5b-a2f6-6694b71e3d50}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="wipro_name" select="1" icon="1" preview="1">
+        <row name="result" id="wipro_prospectid">
+          <cell name="wipro_name" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="wipro_primarycontact" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="wipro_companywebsite" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="wipro_city" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="wipro_country" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="wipro_prospect">
+          <attribute name="wipro_name" />
+          <order attribute="wipro_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="wipro_primarycontact" />
+          <attribute name="wipro_country" />
+          <attribute name="wipro_companywebsite" />
+          <attribute name="wipro_city" />
+          <attribute name="wipro_prospectid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Clients" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
